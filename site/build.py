@@ -303,7 +303,7 @@ def main():
     template = re.sub(r"\{\{(math|display):(.+?)\}\}(?!\})", lambda m: render(m.group(2), m.group(1) == "display"), template)
     assert not re.search(r"\{\{[^}]+\}\}", template), "Unfilled page field"
     # Cache-bust local presentation assets after rebuilding.
-    template = re.sub(r'(src|srcset|href)="(style\.css|native-charts\.css|native-charts\.js|interactions\.js|figures/[^"?]+\.svg)"',
+    template = re.sub(r'(src|srcset|href)="(style\.css|native-charts\.css|native-charts\.js|interactions\.js|analytics\.js|figures/[^"?]+\.svg)"',
         lambda m: f'{m[1]}="{m[2]}?v={hashlib.sha256((SITE/m[2]).read_bytes()).hexdigest()[:10]}"', template)
     (SITE / "index.html").write_text(template)
     (SITE / "data/results.json").write_text(json.dumps({"release": "release_v2", "curves": curves, "headlines": headlines, "thresholds": thresholds, "facts": FACTS, "score_comparisons": comparisons.astype(object).where(pd.notna(comparisons), None).to_dict(orient="records"), "score_comparison_method": comparison_method}, indent=2, allow_nan=False) + "\n")
