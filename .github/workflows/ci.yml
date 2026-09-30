@@ -1,0 +1,23 @@
+name: Checks
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install -e '.[test,site]'
+      - run: python -m pytest
+      - run: python -m scripts.verify results/release_v2 --allow-code-changes --smoke --inputs
+      - run: python -m scripts.verify_feedback
+      - run: python -m scripts.feedback_policy_study verify
+      - run: python -m scripts.verify_outcomes --benchmark terminal_science
+      - run: python -m examples.custom_benchmark.run
+      - run: python site/build.py
+      - run: git diff --exit-code -- README.md site

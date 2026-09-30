@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "feedback_coordinates": 10,
+  "stored_constituent_tasks": 28,
+  "models": 14,
+  "coordinate_model_checks": 140,
+  "mapping": [
+    {
+      "category": "narrative_qa",
+      "public_header": "NarrativeQA - F1",
+      "stored_tasks": [
+        "narrative_qa|{}"
+      ],
+      "historical_run_prefixes": [
+        "narrative_qa"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "natural_qa_openbook_longans",
+      "public_header": "NaturalQuestions (open-book) - F1",
+      "stored_tasks": [
+        "natural_qa_openbook_longans|{\"mode\":\"openbook_longans\"}"
+      ],
+      "historical_run_prefixes": [
+        "natural_qa:mode=openbook_longans"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "natural_qa_closedbook",
+      "public_header": "NaturalQuestions (closed-book) - F1",
+      "stored_tasks": [
+        "natural_qa_closedbook|{\"mode\":\"closedbook\"}"
+      ],
+      "historical_run_prefixes": [
+        "natural_qa:mode=closedbook"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "openbookqa",
+      "public_header": "OpenbookQA - EM",
+      "stored_tasks": [
+        "openbookqa|{}"
+      ],
+      "historical_run_prefixes": [
+        "commonsense:dataset=openbookqa,method=multiple_choice_joint"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "mmlu",
+      "public_header": "MMLU - EM",
+      "stored_tasks": [
+        "mmlu|{\"subject\":\"abstract_algebra\"}",
+        "mmlu|{\"subject\":\"college_chemistry\"}",
+        "mmlu|{\"subject\":\"computer_security\"}",
+        "mmlu|{\"subject\":\"econometrics\"}",
+        "mmlu|{\"subject\":\"us_foreign_policy\"}"
+      ],
+      "historical_run_prefixes": [
+        "mmlu:subject=abstract_algebra,method=multiple_choice_joint",
+        "mmlu:subject=college_chemistry,method=multiple_choice_joint",
+        "mmlu:subject=computer_security,method=multiple_choice_joint",
+        "mmlu:subject=econometrics,method=multiple_choice_joint",
+        "mmlu:subject=us_foreign_policy,method=multiple_choice_joint"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "math_chain_of_thought",
+      "public_header": "MATH - Equivalent (CoT)",
+      "stored_tasks": [
+        "math_chain_of_thought|{\"level\":1,\"subject\":\"algebra\",\"use_chain_of_thought\":true,\"use_official_examples\":false}",
+        "math_chain_of_thought|{\"level\":1,\"subject\":\"counting_and_probability\",\"use_chain_of_thought\":true,\"use_official_examples\":false}",
+        "math_chain_of_thought|{\"level\":1,\"subject\":\"geometry\",\"use_chain_of_thought\":true,\"use_official_examples\":false}",
+        "math_chain_of_thought|{\"level\":1,\"subject\":\"intermediate_algebra\",\"use_chain_of_thought\":true,\"use_official_examples\":false}",
+        "math_chain_of_thought|{\"level\":1,\"subject\":\"number_theory\",\"use_chain_of_thought\":true,\"use_official_examples\":false}",
+        "math_chain_of_thought|{\"level\":1,\"subject\":\"prealgebra\",\"use_chain_of_thought\":true,\"use_official_examples\":false}",
+        "math_chain_of_thought|{\"level\":1,\"subject\":\"precalculus\",\"use_chain_of_thought\":true,\"use_official_examples\":false}"
+      ],
+      "historical_run_prefixes": [
+        "math:subject=algebra,level=1,use_official_examples=False,use_chain_of_thought=True",
+        "math:subject=counting_and_probability,level=1,use_official_examples=False,use_chain_of_thought=True",
+        "math:subject=geometry,level=1,use_official_examples=False,use_chain_of_thought=True",
+        "math:subject=intermediate_algebra,level=1,use_official_examples=False,use_chain_of_thought=True",
+        "math:subject=number_theory,level=1,use_official_examples=False,use_chain_of_thought=True",
+        "math:subject=prealgebra,level=1,use_official_examples=False,use_chain_of_thought=True",
+        "math:subject=precalculus,level=1,use_official_examples=False,use_chain_of_thought=True"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "gsm",
+      "public_header": "GSM8K - EM",
+      "stored_tasks": [
+        "gsm|{}"
+      ],
+      "historical_run_prefixes": [
+        "gsm"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "legalbench",
+      "public_header": "LegalBench - EM",
+      "stored_tasks": [
+        "legalbench|{\"subset\":\"abercrombie\"}",
+        "legalbench|{\"subset\":\"corporate_lobbying\"}",
+        "legalbench|{\"subset\":\"function_of_decision_section\"}",
+        "legalbench|{\"subset\":\"international_citizenship_questions\"}",
+        "legalbench|{\"subset\":\"proa\"}"
+      ],
+      "historical_run_prefixes": [
+        "legalbench:subset=abercrombie",
+        "legalbench:subset=corporate_lobbying",
+        "legalbench:subset=function_of_decision_section",
+        "legalbench:subset=international_citizenship_questions",
+        "legalbench:subset=proa"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "med_qa",
+      "public_header": "MedQA - EM",
+      "stored_tasks": [
+        "med_qa|{}"
+      ],
+      "historical_run_prefixes": [
+        "med_qa"
+      ],
+      "verified_models": 14
+    },
+    {
+      "category": "wmt_14",
+      "public_header": "WMT 2014 - BLEU-4",
+      "stored_tasks": [
+        "wmt_14|{\"source_language\":\"cs\",\"target_language\":\"en\"}",
+        "wmt_14|{\"source_language\":\"de\",\"target_language\":\"en\"}",
+        "wmt_14|{\"source_language\":\"fr\",\"target_language\":\"en\"}",
+        "wmt_14|{\"source_language\":\"hi\",\"target_language\":\"en\"}",
+        "wmt_14|{\"source_language\":\"ru\",\"target_language\":\"en\"}"
+      ],
+      "historical_run_prefixes": [
+        "wmt_14:language_pair=cs-en",
+        "wmt_14:language_pair=de-en",
+        "wmt_14:language_pair=fr-en",
+        "wmt_14:language_pair=hi-en",
+        "wmt_14:language_pair=ru-en"
+      ],
+      "verified_models": 14
+    }
+  ]
+}

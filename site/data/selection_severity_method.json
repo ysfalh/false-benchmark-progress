@@ -1,0 +1,33 @@
+{
+  "policy": "top5",
+  "trials_per_benchmark": {
+    "livebench": 250,
+    "helm_capabilities": 250,
+    "helm_lite": 250,
+    "openllm_v2": 250,
+    "swe_verified": 250,
+    "terminal_science": 212
+  },
+  "event": "first_s_not_t AND heldout_regret_pp >= threshold; any uses first_s_not_t alone",
+  "rate_denominator": "All eligible trials, including trials where the router is not a false winner. Ineligible cells are omitted inside each common 250-index resample.",
+  "deficit": "best genuine held-out score minus final router held-out score, in percentage points",
+  "mean_deficit": "conditional on first_s_not_t; ratio recomputed in each bootstrap resample",
+  "thresholds_pp": [
+    1,
+    2,
+    5
+  ],
+  "main_plot_max_submissions": 128,
+  "full_plot_max_submissions": 2048,
+  "bootstrap": {
+    "seed": 2026081900,
+    "resamples": 2000,
+    "confidence": 0.95
+  },
+  "intervals": "pointwise percentile intervals; resamples with zero false winners omitted for conditional means",
+  "scope": "descriptive thresholds; fixed benchmark snapshots; no fresh-data inference",
+  "helm_lite": "false-winner ranks use mean win rate; score deficit uses mean category score",
+  "swe_verified": "score deficit uses instance-weighted resolution rate",
+  "input_sha256": "7b6a23033c9ea93455784828a69e4b79bac70eb37aceee752fb779b5eaea787a",
+  "analysis_sha256": "cfde156baa275656882309d92155d640e77ae42f98c03bfc3f66b88932c975ea"
+}

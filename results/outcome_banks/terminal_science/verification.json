@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "benchmark": "terminal_science",
+  "trials": 250,
+  "eligible": 212,
+  "routing_outcomes": 2544,
+  "rerun": true,
+  "checks": [
+    "Reconstruct saved integer-weight routing against frozen task outcomes",
+    "Public tie handling and selected scores",
+    "Paired bootstrap summaries",
+    "Complete replay matches every saved decision and evaluation array"
+  ]
+}

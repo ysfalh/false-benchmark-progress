@@ -1,0 +1,11 @@
+{
+  "training_source": "livebench_curves.csv",
+  "evaluation_source": "results/release_v2",
+  "sha256": {
+    "external_validation.csv": "c5a0928aa437fe47e98cf58daad1475abf15c55c23f6d524e88ad6410b6883fd",
+    "figure_points.csv": "c7f76e19889e08bc53a506dd40549c78b0d8cfeb2574547731643f8f746dff66",
+    "livebench_curves.csv": "f45f2ffafe75154dc5938905c84bdb87382581f919a4d265c756cbdb7a800903",
+    "livebench_thresholds.csv": "762a2556293065bc96bf709d92e7adeaf514538ebb0d8f987b48e3ca70436e3b",
+    "models.json": "7cb3b6de93129bdb22a134c67d0ad3dc31a5f946cd942449f4703a6b61a03088"
+  }
+}

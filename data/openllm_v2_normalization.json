@@ -1,0 +1,146 @@
+[
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "full_source_normalized_percent": {
+      "IFEval": 75.39539532883859,
+      "BBH": 42.836865407706945,
+      "MuSR": 19.835156249999994,
+      "GPQA": 13.422818791946312,
+      "MMLU-Pro": 38.0079048463357,
+      "MATH Lvl 5": 12.386706948640484,
+      "Average": 33.647474595578
+    },
+    "matching_table_rows": [
+      {
+        "max_abs_diff_pp": 1.4210854715202004e-14,
+        "eval_name": "CohereForAI_c4ai-command-r-plus-08-2024_float16"
+      }
+    ]
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "full_source_normalized_percent": {
+      "IFEval": 83.46121623957765,
+      "BBH": 56.489348261593875,
+      "MuSR": 13.498958333333333,
+      "GPQA": 11.74496644295302,
+      "MMLU-Pro": 51.85062056737589,
+      "MATH Lvl 5": 62.53776435045317,
+      "Average": 46.59714569921449
+    },
+    "matching_table_rows": [
+      {
+        "max_abs_diff_pp": 7.105427357601002e-15,
+        "eval_name": "Qwen_Qwen2.5-32B-Instruct_bfloat16"
+      }
+    ]
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "full_source_normalized_percent": {
+      "IFEval": 86.3837949972739,
+      "BBH": 61.873255668787884,
+      "MuSR": 11.742187500000005,
+      "GPQA": 16.666666666666668,
+      "MMLU-Pro": 51.39812352245863,
+      "MATH Lvl 5": 59.818731117824775,
+      "Average": 47.98045991216864
+    },
+    "matching_table_rows": [
+      {
+        "max_abs_diff_pp": 7.105427357601002e-15,
+        "eval_name": "Qwen_Qwen2.5-72B-Instruct_bfloat16"
+      }
+    ]
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "full_source_normalized_percent": {
+      "IFEval": 79.77677008116243,
+      "BBH": 49.272842151303855,
+      "MuSR": 9.112760416666669,
+      "GPQA": 16.666666666666668,
+      "MMLU-Pro": 38.34958628841608,
+      "MATH Lvl 5": 23.867069486404834,
+      "Average": 36.17428251510342
+    },
+    "matching_table_rows": [
+      {
+        "max_abs_diff_pp": 1.4210854715202004e-14,
+        "eval_name": "google_gemma-2-27b-it_bfloat16"
+      }
+    ]
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "full_source_normalized_percent": {
+      "IFEval": 89.97581971391465,
+      "BBH": 56.56141078802218,
+      "MuSR": 15.565624999999999,
+      "GPQA": 10.514541387024613,
+      "MMLU-Pro": 48.12906323877069,
+      "MATH Lvl 5": 48.338368580060425,
+      "Average": 44.84747145129876
+    },
+    "matching_table_rows": [
+      {
+        "max_abs_diff_pp": 1.4210854715202004e-14,
+        "eval_name": "meta-llama_Llama-3.3-70B-Instruct_bfloat16"
+      }
+    ]
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "full_source_normalized_percent": {
+      "IFEval": 86.6885419575615,
+      "BBH": 55.92799173898473,
+      "MuSR": 17.691145833333334,
+      "GPQA": 14.205816554809843,
+      "MMLU-Pro": 47.879728132387704,
+      "MATH Lvl 5": 38.066465256797585,
+      "Average": 43.409948245645786
+    },
+    "matching_table_rows": [
+      {
+        "max_abs_diff_pp": 7.105427357601002e-15,
+        "eval_name": "meta-llama_Llama-3.1-70B-Instruct_bfloat16"
+      }
+    ]
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "full_source_normalized_percent": {
+      "IFEval": 64.22713954529537,
+      "BBH": 49.38061007422016,
+      "MuSR": 13.052083333333334,
+      "GPQA": 11.521252796420578,
+      "MMLU-Pro": 40.84293735224586,
+      "MATH Lvl 5": 19.561933534743204,
+      "Average": 33.09765943937642
+    },
+    "matching_table_rows": [
+      {
+        "max_abs_diff_pp": 7.105427357601002e-15,
+        "eval_name": "microsoft_Phi-3-medium-4k-instruct_bfloat16"
+      }
+    ]
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "full_source_normalized_percent": {
+      "IFEval": 84.00577135334247,
+      "BBH": 52.74489199526341,
+      "MuSR": 17.216666666666665,
+      "GPQA": 24.944071588366892,
+      "MMLU-Pro": 50.68705673758865,
+      "MATH Lvl 5": 49.546827794561935,
+      "Average": 46.524214355965
+    },
+    "matching_table_rows": [
+      {
+        "max_abs_diff_pp": 7.105427357601002e-15,
+        "eval_name": "mistralai_Mistral-Large-Instruct-2411_float16"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+benchmark,policy,metric,threshold,smallest_tested_random_budget,static_crosses
+livebench,top5,score_gap_above_preload_pp,2.0,4,False
+livebench,top5,first_s_not_t,0.9,4,False
+livebench,full_frontier,score_gap_above_preload_pp,2.0,32,False
+livebench,full_frontier,first_s_not_t,0.9,16,True
+helm_capabilities,top5,score_gap_above_preload_pp,2.0,128,False
+helm_capabilities,top5,first_s_not_t,0.9,16,False
+helm_capabilities,full_frontier,score_gap_above_preload_pp,2.0,512,False
+helm_capabilities,full_frontier,first_s_not_t,0.9,128,False
+helm_lite,top5,score_gap_above_preload_pp,2.0,256,False
+helm_lite,top5,first_s_not_t,0.9,64,False
+helm_lite,full_frontier,score_gap_above_preload_pp,2.0,256,False
+helm_lite,full_frontier,first_s_not_t,0.9,64,False
+openllm,top5,score_gap_above_preload_pp,2.0,32,False
+openllm,top5,first_s_not_t,0.9,32,False
+openllm,full_frontier,score_gap_above_preload_pp,2.0,32,False
+openllm,full_frontier,first_s_not_t,0.9,32,False

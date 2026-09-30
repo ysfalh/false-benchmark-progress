@@ -1,0 +1,24 @@
+{
+  "selection": "Select the highest archived public overall among genuine models only; ties at 1e-10 score precision are broken lexically. Freeze the model before reading held-out scores. Zero new submissions.",
+  "scores": "Report the same selected model on S and T, using the archived evaluator score. HELM Lite score is equal-category mean but selection and rank use mean win rate. Open LLM v2 uses normalized official overall; SWE Verified uses instance-weighted resolution rate.",
+  "selection_failure": "The public-selected genuine model is not tied for first among genuine models on T under the original ranking rule. This is pre-existing selection error, not attack-induced false promotion.",
+  "regret": "Best genuine held-out score minus the selected model score, in pp. For HELM Lite this is score regret, distinct from mean-win-rate ranking regret.",
+  "selected_gap": "Signed S minus T score of the SAME public-selected model, in pp.",
+  "preload_gap": "Original no-attack running-best score gap: maximum absolute difference between separate S/T running-best histories over the lexically ordered genuine-model preload. The two best models can differ; this is NOT the selected-model gap.",
+  "summary": "250 trials once per benchmark; duplicated endpoint-policy traces are checked equal and counted only once. Means with 2,000 paired trial bootstrap resamples, seed 2026081900. Intervals describe overlapping splits of one snapshot.",
+  "purpose": "Descriptive reference for existing plots; no new attack protocol or outcome-selected trials.",
+  "sources_sha256": {
+    "results/release_v2/livebench/public_profiles.npz": "06b4e02f8d95fbaa5e7a1cb623a2d73ac1d58d49435514743554c1defb54b756",
+    "results/release_v2/livebench/evaluation.npz": "5dd3c566231b91ba6bb6be07fc6ab51ad8fbb3767a7494465a8daec657439863",
+    "results/release_v2/helm_capabilities/public_profiles.npz": "7763d141db5cdd8cd72dd8534d8aaf3a086f59b9cc8c0fce3b600130b9b92f7d",
+    "results/release_v2/helm_capabilities/evaluation.npz": "e0ff8572769b3143f49f124f2f41f05d7693fdca6e5c441569ef533edccaf2b5",
+    "results/release_v2/helm_lite/public_profiles.npz": "48cd69f4a0c56e4b21c85096844e2e3b712626dd2e639517b9dca451789c7ce3",
+    "results/release_v2/helm_lite/evaluation.npz": "07d5703762869968fa0500efb33a999ae31c6bef0335e06c68779eb2af309a55",
+    "results/release_v2/openllm_v2/public_profiles.npz": "7ee18a73e53b1340cf5ab811f6b5f4f01c59c076e4ff1447a2cf1fc5f7488816",
+    "results/release_v2/openllm_v2/evaluation.npz": "b89e81a092af92b0f4f2c32aa5d085321efdebefeb1c64c4f5869e6640e975a3",
+    "results/release_v2/swe_verified/public_profiles.npz": "673ae31a02799a78db8a4fcd54995ca84a8baade13827a2017de785312772611",
+    "results/release_v2/swe_verified/evaluation.npz": "0da218fc393ecf25974ebe8864038b9a58c40b5829f2dd421a180bec835e29f9",
+    "results/release_v2/headline.csv": "d76f067d6c4f9d8ccf8921962d6bcd2c486479f0dcf64420af0d61ffe59ff18e"
+  },
+  "code_sha256": "59d922b8732206598cc0546d16ed6874ffb54b6bd9957cb90770295f962f4447"
+}

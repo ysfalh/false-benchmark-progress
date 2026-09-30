@@ -1,0 +1,13 @@
+{
+  "metric": "mean score generalization gap minus genuine-baseline mean, in percentage points",
+  "method": "paired basic bootstrap; one-sided Bonferroni lower bounds",
+  "family": "all queried budgets across five benchmarks, top5 policy",
+  "comparisons": 55,
+  "family_alpha": 0.05,
+  "resamples": 100000,
+  "seed": 2026081900,
+  "quantile": "higher",
+  "positive_tolerance_pp": 1e-10,
+  "input_sha256": "7b6a23033c9ea93455784828a69e4b79bac70eb37aceee752fb779b5eaea787a",
+  "analysis_sha256": "75a9315d2dbd2e9131ac67afe17578b02ecdf1f80062067bfed7713dd805ff84"
+}

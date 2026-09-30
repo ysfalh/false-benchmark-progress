@@ -1,0 +1,251 @@
+benchmark,trial,policy,eligible,reason,frontier_size
+terminal_science,0,historical_domain,True,,2
+terminal_science,1,historical_domain,True,,2
+terminal_science,2,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,3,historical_domain,True,,2
+terminal_science,4,historical_domain,True,,2
+terminal_science,5,historical_domain,True,,2
+terminal_science,6,historical_domain,True,,2
+terminal_science,7,historical_domain,True,,2
+terminal_science,8,historical_domain,True,,2
+terminal_science,9,historical_domain,True,,2
+terminal_science,10,historical_domain,True,,2
+terminal_science,11,historical_domain,True,,2
+terminal_science,12,historical_domain,True,,2
+terminal_science,13,historical_domain,True,,3
+terminal_science,14,historical_domain,True,,2
+terminal_science,15,historical_domain,True,,2
+terminal_science,16,historical_domain,True,,2
+terminal_science,17,historical_domain,True,,2
+terminal_science,18,historical_domain,True,,2
+terminal_science,19,historical_domain,True,,2
+terminal_science,20,historical_domain,True,,2
+terminal_science,21,historical_domain,True,,2
+terminal_science,22,historical_domain,True,,2
+terminal_science,23,historical_domain,True,,2
+terminal_science,24,historical_domain,True,,2
+terminal_science,25,historical_domain,True,,2
+terminal_science,26,historical_domain,True,,2
+terminal_science,27,historical_domain,True,,2
+terminal_science,28,historical_domain,True,,2
+terminal_science,29,historical_domain,True,,2
+terminal_science,30,historical_domain,True,,2
+terminal_science,31,historical_domain,True,,2
+terminal_science,32,historical_domain,True,,2
+terminal_science,33,historical_domain,True,,2
+terminal_science,34,historical_domain,True,,2
+terminal_science,35,historical_domain,True,,2
+terminal_science,36,historical_domain,True,,2
+terminal_science,37,historical_domain,True,,2
+terminal_science,38,historical_domain,True,,2
+terminal_science,39,historical_domain,True,,2
+terminal_science,40,historical_domain,True,,2
+terminal_science,41,historical_domain,True,,2
+terminal_science,42,historical_domain,True,,2
+terminal_science,43,historical_domain,True,,2
+terminal_science,44,historical_domain,True,,2
+terminal_science,45,historical_domain,True,,2
+terminal_science,46,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,47,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,48,historical_domain,True,,2
+terminal_science,49,historical_domain,True,,2
+terminal_science,50,historical_domain,True,,2
+terminal_science,51,historical_domain,True,,2
+terminal_science,52,historical_domain,True,,2
+terminal_science,53,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,54,historical_domain,True,,3
+terminal_science,55,historical_domain,True,,2
+terminal_science,56,historical_domain,True,,2
+terminal_science,57,historical_domain,True,,3
+terminal_science,58,historical_domain,True,,2
+terminal_science,59,historical_domain,True,,2
+terminal_science,60,historical_domain,True,,2
+terminal_science,61,historical_domain,True,,2
+terminal_science,62,historical_domain,True,,2
+terminal_science,63,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,64,historical_domain,True,,2
+terminal_science,65,historical_domain,True,,2
+terminal_science,66,historical_domain,True,,2
+terminal_science,67,historical_domain,True,,2
+terminal_science,68,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,69,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,70,historical_domain,True,,2
+terminal_science,71,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,72,historical_domain,True,,2
+terminal_science,73,historical_domain,True,,2
+terminal_science,74,historical_domain,True,,2
+terminal_science,75,historical_domain,True,,2
+terminal_science,76,historical_domain,True,,2
+terminal_science,77,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,78,historical_domain,True,,2
+terminal_science,79,historical_domain,True,,2
+terminal_science,80,historical_domain,True,,2
+terminal_science,81,historical_domain,True,,2
+terminal_science,82,historical_domain,True,,2
+terminal_science,83,historical_domain,True,,2
+terminal_science,84,historical_domain,True,,2
+terminal_science,85,historical_domain,True,,2
+terminal_science,86,historical_domain,True,,2
+terminal_science,87,historical_domain,True,,3
+terminal_science,88,historical_domain,True,,2
+terminal_science,89,historical_domain,True,,2
+terminal_science,90,historical_domain,True,,2
+terminal_science,91,historical_domain,True,,2
+terminal_science,92,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,93,historical_domain,True,,2
+terminal_science,94,historical_domain,True,,2
+terminal_science,95,historical_domain,True,,2
+terminal_science,96,historical_domain,True,,2
+terminal_science,97,historical_domain,True,,2
+terminal_science,98,historical_domain,True,,2
+terminal_science,99,historical_domain,True,,2
+terminal_science,100,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,101,historical_domain,True,,2
+terminal_science,102,historical_domain,True,,2
+terminal_science,103,historical_domain,True,,2
+terminal_science,104,historical_domain,True,,2
+terminal_science,105,historical_domain,True,,2
+terminal_science,106,historical_domain,True,,2
+terminal_science,107,historical_domain,True,,2
+terminal_science,108,historical_domain,True,,2
+terminal_science,109,historical_domain,True,,2
+terminal_science,110,historical_domain,True,,2
+terminal_science,111,historical_domain,True,,2
+terminal_science,112,historical_domain,True,,2
+terminal_science,113,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,114,historical_domain,True,,2
+terminal_science,115,historical_domain,True,,2
+terminal_science,116,historical_domain,True,,2
+terminal_science,117,historical_domain,True,,2
+terminal_science,118,historical_domain,True,,2
+terminal_science,119,historical_domain,True,,2
+terminal_science,120,historical_domain,True,,2
+terminal_science,121,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,122,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,123,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,124,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,125,historical_domain,True,,2
+terminal_science,126,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,127,historical_domain,True,,2
+terminal_science,128,historical_domain,True,,2
+terminal_science,129,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,130,historical_domain,True,,2
+terminal_science,131,historical_domain,True,,2
+terminal_science,132,historical_domain,True,,2
+terminal_science,133,historical_domain,True,,2
+terminal_science,134,historical_domain,True,,2
+terminal_science,135,historical_domain,True,,2
+terminal_science,136,historical_domain,True,,2
+terminal_science,137,historical_domain,True,,2
+terminal_science,138,historical_domain,True,,2
+terminal_science,139,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,140,historical_domain,True,,2
+terminal_science,141,historical_domain,True,,2
+terminal_science,142,historical_domain,True,,2
+terminal_science,143,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,144,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,145,historical_domain,True,,2
+terminal_science,146,historical_domain,True,,2
+terminal_science,147,historical_domain,True,,2
+terminal_science,148,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,149,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,150,historical_domain,True,,2
+terminal_science,151,historical_domain,True,,2
+terminal_science,152,historical_domain,True,,3
+terminal_science,153,historical_domain,True,,2
+terminal_science,154,historical_domain,True,,2
+terminal_science,155,historical_domain,True,,2
+terminal_science,156,historical_domain,True,,2
+terminal_science,157,historical_domain,True,,2
+terminal_science,158,historical_domain,True,,2
+terminal_science,159,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,160,historical_domain,True,,3
+terminal_science,161,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,162,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,163,historical_domain,True,,2
+terminal_science,164,historical_domain,True,,2
+terminal_science,165,historical_domain,True,,2
+terminal_science,166,historical_domain,True,,2
+terminal_science,167,historical_domain,True,,2
+terminal_science,168,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,169,historical_domain,True,,2
+terminal_science,170,historical_domain,True,,2
+terminal_science,171,historical_domain,True,,2
+terminal_science,172,historical_domain,True,,2
+terminal_science,173,historical_domain,True,,2
+terminal_science,174,historical_domain,True,,3
+terminal_science,175,historical_domain,True,,2
+terminal_science,176,historical_domain,True,,2
+terminal_science,177,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,178,historical_domain,True,,2
+terminal_science,179,historical_domain,True,,2
+terminal_science,180,historical_domain,True,,2
+terminal_science,181,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,182,historical_domain,True,,2
+terminal_science,183,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,184,historical_domain,True,,2
+terminal_science,185,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,186,historical_domain,True,,2
+terminal_science,187,historical_domain,True,,2
+terminal_science,188,historical_domain,True,,2
+terminal_science,189,historical_domain,True,,2
+terminal_science,190,historical_domain,True,,2
+terminal_science,191,historical_domain,True,,2
+terminal_science,192,historical_domain,True,,2
+terminal_science,193,historical_domain,True,,2
+terminal_science,194,historical_domain,True,,2
+terminal_science,195,historical_domain,True,,2
+terminal_science,196,historical_domain,True,,2
+terminal_science,197,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,198,historical_domain,True,,2
+terminal_science,199,historical_domain,True,,2
+terminal_science,200,historical_domain,True,,2
+terminal_science,201,historical_domain,True,,2
+terminal_science,202,historical_domain,True,,2
+terminal_science,203,historical_domain,True,,2
+terminal_science,204,historical_domain,True,,2
+terminal_science,205,historical_domain,True,,2
+terminal_science,206,historical_domain,True,,2
+terminal_science,207,historical_domain,True,,2
+terminal_science,208,historical_domain,True,,2
+terminal_science,209,historical_domain,True,,2
+terminal_science,210,historical_domain,True,,2
+terminal_science,211,historical_domain,True,,2
+terminal_science,212,historical_domain,True,,2
+terminal_science,213,historical_domain,True,,2
+terminal_science,214,historical_domain,True,,2
+terminal_science,215,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,216,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,217,historical_domain,True,,2
+terminal_science,218,historical_domain,True,,2
+terminal_science,219,historical_domain,True,,3
+terminal_science,220,historical_domain,True,,2
+terminal_science,221,historical_domain,True,,3
+terminal_science,222,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,223,historical_domain,True,,2
+terminal_science,224,historical_domain,True,,2
+terminal_science,225,historical_domain,True,,2
+terminal_science,226,historical_domain,True,,2
+terminal_science,227,historical_domain,True,,2
+terminal_science,228,historical_domain,True,,2
+terminal_science,229,historical_domain,True,,2
+terminal_science,230,historical_domain,True,,2
+terminal_science,231,historical_domain,True,,2
+terminal_science,232,historical_domain,True,,2
+terminal_science,233,historical_domain,True,,2
+terminal_science,234,historical_domain,True,,3
+terminal_science,235,historical_domain,True,,2
+terminal_science,236,historical_domain,True,,2
+terminal_science,237,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,238,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,239,historical_domain,True,,2
+terminal_science,240,historical_domain,True,,2
+terminal_science,241,historical_domain,True,,3
+terminal_science,242,historical_domain,True,,3
+terminal_science,243,historical_domain,True,,2
+terminal_science,244,historical_domain,True,,2
+terminal_science,245,historical_domain,True,,2
+terminal_science,246,historical_domain,True,,2
+terminal_science,247,historical_domain,False,Fewer than two public frontier models; no fallback is defined,1
+terminal_science,248,historical_domain,True,,2
+terminal_science,249,historical_domain,True,,3

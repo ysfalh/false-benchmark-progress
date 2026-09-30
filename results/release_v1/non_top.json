@@ -1,0 +1,8 @@
+{
+  "trials": 250,
+  "eligible_trials": 250,
+  "random_false_selection": 0.58,
+  "better_endpoint_median_rank_s": 2.0,
+  "new_submissions": 2048,
+  "scope": "Secondary diagnostic: exclude public S leaders before full-frontier maximum-MAD selection."
+}

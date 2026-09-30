@@ -1,0 +1,54 @@
+{
+  "livebench": {
+    "source_question_sha256": "a0138527213d7341f54c9ec3c9be9c40b2f86b6b3a2e424eb08b4ee754683f1d",
+    "source_scores_sha256": "f75b99bfaa68d9f5d5f78e6957aae98ff47924b3dbfed540826ed2a11e14fc2e",
+    "questions": 612,
+    "models": 33,
+    "columns": [
+      "question_id",
+      "category",
+      "task",
+      "content_hash"
+    ],
+    "preparation": "Retain the original non-calibration rows and routing hashes; discard prompt text and unused fields. Scores are unchanged."
+  },
+  "helm_capabilities": {
+    "source_question_sha256": "c5a66bec4a9fd24cd29833ef626e50eb2cd9c985ea62deee3cdde9754b89855b",
+    "source_scores_sha256": "849897f56009a86ca7cbd04c3de82aed26c6ce10bf82519380220665080757ab",
+    "questions": 3190,
+    "models": 68,
+    "columns": [
+      "question_id",
+      "category",
+      "task",
+      "content_hash"
+    ],
+    "preparation": "Retain the original non-calibration rows and routing hashes; discard prompt text and unused fields. Scores are unchanged."
+  },
+  "helm_lite": {
+    "source_question_sha256": "8be0f2b917c60444cf168afbcf60e5278af82721bffcf45b087c4614d6cc1b3a",
+    "source_scores_sha256": "9f1682782662e766332f9844d6f89e7bfcc5db9e9eb731e261cd5dfcc413df3f",
+    "questions": 8159,
+    "models": 14,
+    "columns": [
+      "question_id",
+      "category",
+      "task",
+      "content_hash"
+    ],
+    "preparation": "Retain the original non-calibration rows and routing hashes; discard prompt text and unused fields. Scores are unchanged."
+  },
+  "openllm": {
+    "source_question_sha256": "51781971b01f8e1fc5f7769f2646543a38deabddb053b2c199205ad47cca5597",
+    "source_scores_sha256": "22dc7d84987928156eee736d0cbd2fc271ef162f7c187e3ab3f6db9d7386702a",
+    "questions": 3840,
+    "models": 7,
+    "columns": [
+      "question_id",
+      "category",
+      "task",
+      "content_hash"
+    ],
+    "preparation": "Retain the original non-calibration rows and routing hashes; discard prompt text and unused fields. Scores are unchanged."
+  }
+}

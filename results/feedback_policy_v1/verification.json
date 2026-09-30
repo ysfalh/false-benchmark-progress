@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "trials": 250,
+  "outcomes": 6000,
+  "protocol_sha256": "bbaa2db3db254face28055fd017d15e3295970aee46c59c2d68594aa3248964f",
+  "checks": [
+    "Frozen code and input hashes",
+    "Allowed endpoint choices and all decoder weights",
+    "Ranks and metrics reconstructed from compact evaluator records",
+    "All summaries and paired intervals"
+  ],
+  "limits": "Trace verification is not independent item rescoring; tests additionally compare adapter and vectorized execution and independently rescore selected trials."
+}

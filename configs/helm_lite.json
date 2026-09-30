@@ -1,0 +1,56 @@
+{
+  "benchmark": "helm_lite",
+  "snapshot": {
+    "project": "HELM Lite",
+    "release": "v1.13.0",
+    "release_url": "https://crfm.stanford.edu/helm/lite/v1.13.0/",
+    "benchmark_output_base_url": "https://storage.googleapis.com/crfm-helm-public/lite/benchmark_output"
+  },
+  "categories": [
+    "narrative_qa",
+    "natural_qa_openbook_longans",
+    "natural_qa_closedbook",
+    "openbookqa",
+    "mmlu",
+    "math_chain_of_thought",
+    "gsm",
+    "legalbench",
+    "med_qa",
+    "wmt_14"
+  ],
+  "models": [
+    "ai21/jamba-1.5-large",
+    "ai21/jamba-1.5-mini",
+    "deepseek-ai/deepseek-v3",
+    "google/gemini-1.5-flash-002",
+    "google/gemini-1.5-pro-002",
+    "google/gemma-2-27b-it",
+    "google/gemma-2-9b-it",
+    "meta/llama-3.3-70b-instruct-turbo",
+    "microsoft/phi-3-medium-4k-instruct",
+    "mistralai/mistral-large-2407",
+    "mistralai/open-mistral-nemo-2407",
+    "openai/gpt-4o-2024-08-06",
+    "openai/gpt-4o-mini-2024-07-18",
+    "upstage/solar-pro-241126"
+  ],
+  "trials": 250,
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "split_seed_base": 202608290000,
+  "routing_seed": "helm-lite-bank0-20260829",
+  "tie_seed": "helm-lite-ties0-20260829",
+  "holdout_fraction": 0.6666666666666666
+}

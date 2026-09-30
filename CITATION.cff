@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "You can cite this artifact when using the website, software, or results; cite the theory paper for the formal problem formulation or theoretical limitation results."
+type: software
+title: "Fast but False Progress on Benchmarks with Richer Feedback"
+authors:
+  - family-names: Allouah
+    given-names: Youssef
+  - family-names: Duchi
+    given-names: John
+  - family-names: Koyejo
+    given-names: Sanmi
+version: 0.1.0
+repository-code: "https://github.com/ysfalh/false-benchmark-progress"
+url: "https://false-benchmark-progress.com"
+license: MIT
+references:
+  - type: unpublished
+    title: "How Reusable Are Benchmarks with Richer Feedback?"
+    year: 2026
+    url: "https://arxiv.org/abs/2609.32109"
+    authors:
+      - family-names: Allouah
+        given-names: Youssef
+      - family-names: Duchi
+        given-names: John

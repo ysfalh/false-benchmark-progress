@@ -1,0 +1,72 @@
+[
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "repo": "open-llm-leaderboard-old/details_meta-llama__Meta-Llama-3-8B-Instruct",
+    "revision": "0bb67ddda727931a9e7428fdab9f3654a737b1a8",
+    "run": "2024-04-19T09-19-13.454877",
+    "source_path": "2024-04-19T09-19-13.454877/details_harness|truthfulqa:mc|0_2024-04-19T09-19-13.454877.parquet",
+    "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_meta-llama__Meta-Llama-3-8B-Instruct/resolve/0bb67ddda727931a9e7428fdab9f3654a737b1a8/2024-04-19T09-19-13.454877/details_harness%7Ctruthfulqa%3Amc%7C0_2024-04-19T09-19-13.454877.parquet",
+    "bytes": 653775,
+    "sha256": "82234a23e26135cd61487b77c42517cb883caa6aacd5cd4eb1ad1967f7bd4bf5"
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.2",
+    "repo": "open-llm-leaderboard-old/details_mistralai__Mistral-7B-Instruct-v0.2",
+    "revision": "854bfd2152288daa47fdc595514b6184ab557f40",
+    "run": "2023-12-12T03-37-50.599841",
+    "source_path": "2023-12-12T03-37-50.599841/details_harness|truthfulqa:mc|0_2023-12-12T03-37-50.599841.parquet",
+    "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_mistralai__Mistral-7B-Instruct-v0.2/resolve/854bfd2152288daa47fdc595514b6184ab557f40/2023-12-12T03-37-50.599841/details_harness%7Ctruthfulqa%3Amc%7C0_2023-12-12T03-37-50.599841.parquet",
+    "bytes": 700841,
+    "sha256": "229d87d0352823a05042a18e77c86a78b76466dcf96ff564f12946b34c38e212"
+  },
+  {
+    "model": "google/gemma-7b-it",
+    "repo": "open-llm-leaderboard-old/details_google__gemma-7b-it",
+    "revision": "00518c3583e3bb0931967b18542260fc2d79c0c7",
+    "run": "2024-02-22T15-34-10.620055",
+    "source_path": "2024-02-22T15-34-10.620055/details_harness|truthfulqa:mc|0_2024-02-22T15-34-10.620055.parquet",
+    "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_google__gemma-7b-it/resolve/00518c3583e3bb0931967b18542260fc2d79c0c7/2024-02-22T15-34-10.620055/details_harness%7Ctruthfulqa%3Amc%7C0_2024-02-22T15-34-10.620055.parquet",
+    "bytes": 634125,
+    "sha256": "20ed2bd5a9569e6054adaf1e611136dec502f46d0b0f63ff49a56041ec0b4de5"
+  },
+  {
+    "model": "Qwen/Qwen1.5-7B-Chat",
+    "repo": "open-llm-leaderboard-old/details_Qwen__Qwen1.5-7B-Chat",
+    "revision": "9382a46839be4b341a5289938f4d697511fc442c",
+    "run": "2024-02-18T06-01-16.665375",
+    "source_path": "2024-02-18T06-01-16.665375/details_harness|truthfulqa:mc|0_2024-02-18T06-01-16.665375.parquet",
+    "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_Qwen__Qwen1.5-7B-Chat/resolve/9382a46839be4b341a5289938f4d697511fc442c/2024-02-18T06-01-16.665375/details_harness%7Ctruthfulqa%3Amc%7C0_2024-02-18T06-01-16.665375.parquet",
+    "bytes": 649003,
+    "sha256": "ed361e93a8c2ea4cb5fb146426aff81d811d9036d36d01da63c280691fb2ce9e"
+  },
+  {
+    "model": "microsoft/Phi-3-mini-4k-instruct",
+    "repo": "open-llm-leaderboard-old/details_microsoft__Phi-3-mini-4k-instruct",
+    "revision": "1ab1a9435c2db6363526943e372bfac24a36ce34",
+    "run": "2024-04-25T13-30-16.480959",
+    "source_path": "2024-04-25T13-30-16.480959/details_harness|truthfulqa:mc|0_2024-04-25T13-30-16.480959.parquet",
+    "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_microsoft__Phi-3-mini-4k-instruct/resolve/1ab1a9435c2db6363526943e372bfac24a36ce34/2024-04-25T13-30-16.480959/details_harness%7Ctruthfulqa%3Amc%7C0_2024-04-25T13-30-16.480959.parquet",
+    "bytes": 715587,
+    "sha256": "2be07ab60ed5b1b64f550917b6abe8899a120fd5810c2814f85916c83ee7cd9f"
+  },
+  {
+    "model": "CohereForAI/aya-23-8B",
+    "repo": "open-llm-leaderboard-old/details_CohereForAI__aya-23-8B",
+    "revision": "6ee836bef5b76ebc3ce7eebaa758dc07b7492052",
+    "run": "2024-05-25T19-35-27.229141",
+    "source_path": "2024-05-25T19-35-27.229141/details_harness|truthfulqa:mc|0_2024-05-25T19-35-27.229141.parquet",
+    "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_CohereForAI__aya-23-8B/resolve/6ee836bef5b76ebc3ce7eebaa758dc07b7492052/2024-05-25T19-35-27.229141/details_harness%7Ctruthfulqa%3Amc%7C0_2024-05-25T19-35-27.229141.parquet",
+    "bytes": 673068,
+    "sha256": "673dc4a5aa94d19d221c9745c9a5eb7b5f875fce9462e678064ab66635e325df"
+  },
+  {
+    "model": "01-ai/Yi-1.5-9B-Chat",
+    "repo": "open-llm-leaderboard-old/details_01-ai__Yi-1.5-9B-Chat",
+    "revision": "1eba78783ce48efd339103f104db7190cbdd61e6",
+    "run": "2024-05-16T05-38-57.460156",
+    "source_path": "2024-05-16T05-38-57.460156/details_harness|truthfulqa:mc|0_2024-05-16T05-38-57.460156.parquet",
+    "url": "https://huggingface.co/datasets/open-llm-leaderboard-old/details_01-ai__Yi-1.5-9B-Chat/resolve/1eba78783ce48efd339103f104db7190cbdd61e6/2024-05-16T05-38-57.460156/details_harness%7Ctruthfulqa%3Amc%7C0_2024-05-16T05-38-57.460156.parquet",
+    "bytes": 678574,
+    "sha256": "0ff33f386fa344bcc5d1c0608cff5d0927ad6296157617c889c1cd78399ff685"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "status": "Packaged reproduction of the exploratory Terminal-Bench counterexample; not an external preregistration.",
+  "configs": {
+    "terminal_bench_4": {
+      "benchmark": "terminal_bench_4",
+      "models": [
+        "Fable 5 / Claude Code / max / 36c077e0-4879-4444-b315-8532d66401d6",
+        "Fable 5.1 / Claude Code / high / 4643b23c-53e8-47ae-a3bd-9abc900e9588",
+        "Fable 5.1 / Claude Code / low / e18d02ab-0973-4d86-872f-a353c8a7f344",
+        "Fable 5.1 / Claude Code / max / c741608e-c94e-417d-b7a8-e67111a0c887",
+        "Fable 5.1 / Claude Code / medium / 83e6bf7e-aeb4-4116-9f30-ca8de96603fb",
+        "Fable 5.1 / Claude Code / xhigh / 9e1c5e11-748f-4f2e-911a-070a396d5bf8",
+        "GLM-5.3 / Claude Code / max / d72e8775-f4f1-4313-99e7-35b1cb499f24",
+        "GPT-5.6 Luna / Codex / max / 51c6d76e-5baa-48c1-97b3-88656c620eef",
+        "GPT-5.6 Sol / Codex / max / 0e349bde-b264-494d-a853-fada9c696192",
+        "GPT-5.6 Terra / Codex / max / e53da412-5e92-408c-b369-c767924c7c1c",
+        "GPT-6 Astra / Codex / high / 3475050c-bf5e-4261-a3f6-0af5350af13f",
+        "GPT-6 Astra / Codex / low / b3ad58f3-b311-4d4d-875b-3158cf0309d6",
+        "GPT-6 Astra / Codex / max / 5c537be4-7fc3-449b-8bfc-ceb9061c2535",
+        "GPT-6 Astra / Codex / medium / f3c3d5a6-6424-4acb-bfcc-615c3f79f6dd",
+        "GPT-6 Astra / Codex / xhigh / 16db8ad5-84aa-4588-b660-1ce68c0d45e2",
+        "Gemini 3.7 Flash / mini-SWE-agent / high / 14f4da14-b86a-4dca-92d7-11178d4fe064",
+        "Gemini 3.8 Flash / mini-SWE-agent / high / 06850434-507d-4dbd-b74a-09d52519ee35",
+        "Grok 4.5 / Grok Build / high / 0eed5a0d-96b6-491b-aeb7-cd5e4700c2d7",
+        "Grok 4.6 / Grok Build / high / 26354542-edc0-40cd-8f8d-9fe6fbe92ac3",
+        "Grok 4.7 / Grok Build / xhigh / 84b39f56-fe3c-46c3-919f-3b67b73f9b49",
+        "Opus 4.8 / Claude Code / max / 952b4217-421f-4d14-849b-9968fcb2063b",
+        "Opus 5 / Claude Code / high / 0b2908ee-3035-447c-9876-e68fecb3f413",
+        "Opus 5 / Claude Code / low / 03fe4f10-b683-427b-a820-61e38145d28b",
+        "Opus 5 / Claude Code / medium / 8c102a88-0789-4ce7-b503-bd39e84e157b",
+        "Opus 5 / Claude Code / xhigh / f7844abc-3109-4d5f-91ad-481df7b9fac2",
+        "Sonnet 5 / Claude Code / max / 8180b9e4-4990-43d0-b906-cd8b43adaaa2"
+      ],
+      "categories": [
+        "Hardware",
+        "ML",
+        "Media",
+        "Operations",
+        "Science",
+        "Security",
+        "Software"
+      ],
+      "repeats": 5,
+      "trials": 250,
+      "holdout_fraction": 0.6666666666666666,
+      "split_seed_base": 202609220000,
+      "routing_seed": "terminal_bench_4-bank0-20260922",
+      "tie_seed": "terminal_bench_4-ties0-20260922"
+    }
+  },
+  "budgets": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "endpoint_policy": "top5",
+  "interface": "Emulated full-precision coordinate means, plus item-weighted overall for genuine endpoint selection; existing top-five Pareto/max-MAD selector and task-linear decoder.",
+  "independence": "All five repeats of each task stay in one split; use their mean, never best-of-five or per-rollout routing.",
+  "splits": "Existing hash-based coordinate-stratified partition, two thirds held out, rounded independently by coordinate; no calibration or data-dependent exclusions.",
+  "selection": "Genuine public winner before; winner among genuine models plus final router afterward. Ties favor genuine entries, then lexical order at ten-decimal loss precision.",
+  "metric": "Model-selection loss: no-attack chosen model T score minus post-attack chosen model T score, in percentage points, signed and averaged over all trials.",
+  "score_gap": "Maximum absolute separate running-best S/T loss gap including genuine preload and candidate history, averaged across trials.",
+  "secondary": "Original final-router false-winner event retained as a diagnostic.",
+  "uncertainty": "2000 paired trial bootstrap resamples, seed 2026081900; pointwise descriptive intervals over overlapping splits.",
+  "limitations": [
+    "One fixed outcome snapshot per benchmark; no fresh model calls or official submissions.",
+    "Emulated aggregate-only access; the actual source exposes per-item records.",
+    "Terminal has only 66 task identities; small domains may have only one reused task.",
+    "Selection pool excludes intermediate candidates, matching the existing diagnostic.",
+    "Models, agents and reasoning efforts are distinct leaderboard entries, not interchangeable endpoints."
+  ],
+  "input_sha256": {
+    "terminal_bench_4_inputs.json": "09eb276bce232ecf8cd076ca2e3ce74f26e67eaf5e452760481997181dc9a4c3",
+    "terminal_published.json": "8d1075c6f342ac886da78455e5c51ea891903ff6e47062fd2ae937b99983da16",
+    "terminal_source.json.gz": "b314b7c3f82725b863ff5496bad2502963eba01c7fe1bdb7bee969eb0b27eded"
+  },
+  "code_sha256": {
+    "scripts/terminal_counterexample.py": "2b798efa4970616bdb99ea109676416477e3b64facd827fd08c85c5644182499",
+    "benchmark_progress/attacks.py": "d249af317d0df1c514d832c6195a7ec87f69ceb7655e81518b56d3516297b610",
+    "benchmark_progress/extensions.py": "4bed7cd47cee8477b8842d5e55c2414693095078135f178f8c33d97c28a2de2a",
+    "benchmark_progress/routers.py": "ecddeadc46f22119a503a22ad8ae45ba54441984a2c8a07c2b7b3c672896f2dc",
+    "benchmark_progress/splits.py": "cdcd08ff386c6780398d33d48fcf40a20b146f0c74dced8697e655fcca5c9a4c",
+    "benchmark_progress/evaluation.py": "1eef8289cb12c0cf21bc19278994f42db05ae1028b7457261a87f13ad26b3de1"
+  }
+}

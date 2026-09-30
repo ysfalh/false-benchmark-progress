@@ -1,0 +1,7 @@
+{
+  "sha256": {
+    "protocol.json": "f6528ffca7e2d0d424d460daf18be68fd7de905802e6436e42b1ffc4cf367413",
+    "groupings.json": "31fd42e98e28ed9d999cae61bb79bfca1f601ce85a8acf4a9162c8aa495f7bc0"
+  },
+  "note": "Integrity hashes of the packaged protocol and task groupings."
+}

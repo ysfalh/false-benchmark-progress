@@ -1,0 +1,39 @@
+{
+  "release": "release_v1",
+  "benchmarks": [
+    "livebench",
+    "helm_capabilities",
+    "helm_lite",
+    "openllm"
+  ],
+  "policies": [
+    "top5",
+    "full_frontier"
+  ],
+  "trials": 250,
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "headline_budget": 2048,
+  "bootstrap": {
+    "seed": 2026081900,
+    "resamples": 2000,
+    "confidence": 0.95,
+    "quantile_method": "higher"
+  },
+  "primary_method": "random_task_linear",
+  "control": "task_router",
+  "units": "Scores and regrets in percentage points; rates in [0,1].",
+  "evaluation_records": "Running-best loss histories plus genuine and final category profiles. Candidate models are excluded from final ranks. These sufficient records retain every metric while omitting redundant per-candidate task dumps."
+}

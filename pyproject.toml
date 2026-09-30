@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "false-benchmark-progress"
+version = "0.1.0"
+description = "Benchmark reuse with public task feedback"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Youssef Allouah"}, {name = "John Duchi"}, {name = "Sanmi Koyejo"}]
+requires-python = ">=3.9,<3.13"
+dependencies = ["numpy==1.26.4", "pandas==2.3.3", "pyarrow==21.0.0"]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2"]
+site = ["matplotlib==3.9.4"]
+
+[tool.setuptools.packages.find]
+include = ["benchmark_progress*", "scripts*", "examples*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.urls]
+Repository = "https://github.com/ysfalh/false-benchmark-progress"

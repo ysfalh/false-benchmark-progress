@@ -1,0 +1,2810 @@
+[
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_boolean_expressions",
+    "items": 250,
+    "archived_score": 0.936,
+    "reconstructed_score": 0.936,
+    "published_score": 0.936,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_causal_judgement",
+    "items": 187,
+    "archived_score": 0.6684491978609626,
+    "reconstructed_score": 0.6684491978609626,
+    "published_score": 0.6684491978609626,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_date_understanding",
+    "items": 250,
+    "archived_score": 0.784,
+    "reconstructed_score": 0.784,
+    "published_score": 0.784,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_disambiguation_qa",
+    "items": 250,
+    "archived_score": 0.744,
+    "reconstructed_score": 0.744,
+    "published_score": 0.744,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_formal_fallacies",
+    "items": 250,
+    "archived_score": 0.776,
+    "reconstructed_score": 0.776,
+    "published_score": 0.776,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_geometric_shapes",
+    "items": 250,
+    "archived_score": 0.464,
+    "reconstructed_score": 0.464,
+    "published_score": 0.464,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_hyperbaton",
+    "items": 250,
+    "archived_score": 0.892,
+    "reconstructed_score": 0.892,
+    "published_score": 0.892,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_five_objects",
+    "items": 250,
+    "archived_score": 0.704,
+    "reconstructed_score": 0.704,
+    "published_score": 0.704,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_seven_objects",
+    "items": 250,
+    "archived_score": 0.644,
+    "reconstructed_score": 0.644,
+    "published_score": 0.644,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_three_objects",
+    "items": 250,
+    "archived_score": 0.94,
+    "reconstructed_score": 0.94,
+    "published_score": 0.94,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_movie_recommendation",
+    "items": 250,
+    "archived_score": 0.768,
+    "reconstructed_score": 0.768,
+    "published_score": 0.768,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_navigate",
+    "items": 250,
+    "archived_score": 0.832,
+    "reconstructed_score": 0.832,
+    "published_score": 0.832,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_object_counting",
+    "items": 250,
+    "archived_score": 0.612,
+    "reconstructed_score": 0.612,
+    "published_score": 0.612,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_penguins_in_a_table",
+    "items": 146,
+    "archived_score": 0.7191780821917808,
+    "reconstructed_score": 0.7191780821917808,
+    "published_score": 0.7191780821917808,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_reasoning_about_colored_objects",
+    "items": 250,
+    "archived_score": 0.864,
+    "reconstructed_score": 0.864,
+    "published_score": 0.864,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_ruin_names",
+    "items": 250,
+    "archived_score": 0.888,
+    "reconstructed_score": 0.888,
+    "published_score": 0.888,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_salient_translation_error_detection",
+    "items": 250,
+    "archived_score": 0.668,
+    "reconstructed_score": 0.668,
+    "published_score": 0.668,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_snarks",
+    "items": 178,
+    "archived_score": 0.9269662921348315,
+    "reconstructed_score": 0.9269662921348315,
+    "published_score": 0.9269662921348315,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_sports_understanding",
+    "items": 250,
+    "archived_score": 0.892,
+    "reconstructed_score": 0.892,
+    "published_score": 0.892,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_temporal_sequences",
+    "items": 250,
+    "archived_score": 0.996,
+    "reconstructed_score": 0.996,
+    "published_score": 0.996,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_five_objects",
+    "items": 250,
+    "archived_score": 0.32,
+    "reconstructed_score": 0.32,
+    "published_score": 0.32,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_seven_objects",
+    "items": 250,
+    "archived_score": 0.34,
+    "reconstructed_score": 0.34,
+    "published_score": 0.34,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_three_objects",
+    "items": 250,
+    "archived_score": 0.4,
+    "reconstructed_score": 0.4,
+    "published_score": 0.4,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_bbh_web_of_lies",
+    "items": 250,
+    "archived_score": 0.676,
+    "reconstructed_score": 0.676,
+    "published_score": 0.676,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_gpqa_diamond",
+    "items": 198,
+    "archived_score": 0.3838383838383838,
+    "reconstructed_score": 0.3838383838383838,
+    "published_score": 0.3838383838383838,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_gpqa_extended",
+    "items": 546,
+    "archived_score": 0.3717948717948718,
+    "reconstructed_score": 0.3717948717948718,
+    "published_score": 0.3717948717948718,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_gpqa_main",
+    "items": 448,
+    "archived_score": 0.375,
+    "reconstructed_score": 0.375,
+    "published_score": 0.375,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_ifeval",
+    "items": 541,
+    "archived_score": 0.8391866913123844,
+    "reconstructed_score": 0.8391866913123844,
+    "published_score": 0.8391866913123844,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_math_algebra_hard",
+    "items": 307,
+    "archived_score": 0.019543973941368076,
+    "reconstructed_score": 0.8599348534201955,
+    "published_score": 0.8599348534201955,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_math_counting_and_prob_hard",
+    "items": 123,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.6504065040650406,
+    "published_score": 0.6504065040650406,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_math_geometry_hard",
+    "items": 132,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.42424242424242425,
+    "published_score": 0.42424242424242425,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_math_intermediate_algebra_hard",
+    "items": 280,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.2857142857142857,
+    "published_score": 0.2857142857142857,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_math_num_theory_hard",
+    "items": 154,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.7207792207792207,
+    "published_score": 0.7207792207792207,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_math_prealgebra_hard",
+    "items": 193,
+    "archived_score": 0.046632124352331605,
+    "reconstructed_score": 0.8134715025906736,
+    "published_score": 0.8134715025906736,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_math_precalculus_hard",
+    "items": 135,
+    "archived_score": 0.007407407407407408,
+    "reconstructed_score": 0.32592592592592595,
+    "published_score": 0.32592592592592595,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_mmlu_pro",
+    "items": 12032,
+    "archived_score": 0.5625831117021277,
+    "reconstructed_score": 0.5625831117021277,
+    "published_score": 0.5625831117021277,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_musr_murder_mysteries",
+    "items": 250,
+    "archived_score": 0.548,
+    "reconstructed_score": 0.548,
+    "published_score": 0.548,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_musr_object_placements",
+    "items": 256,
+    "archived_score": 0.2578125,
+    "reconstructed_score": 0.2578125,
+    "published_score": 0.2578125,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "task": "leaderboard_musr_team_allocation",
+    "items": 250,
+    "archived_score": 0.456,
+    "reconstructed_score": 0.456,
+    "published_score": 0.456,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_boolean_expressions",
+    "items": 250,
+    "archived_score": 0.916,
+    "reconstructed_score": 0.916,
+    "published_score": 0.916,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_causal_judgement",
+    "items": 187,
+    "archived_score": 0.679144385026738,
+    "reconstructed_score": 0.679144385026738,
+    "published_score": 0.679144385026738,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_date_understanding",
+    "items": 250,
+    "archived_score": 0.712,
+    "reconstructed_score": 0.712,
+    "published_score": 0.712,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_disambiguation_qa",
+    "items": 250,
+    "archived_score": 0.644,
+    "reconstructed_score": 0.644,
+    "published_score": 0.644,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_formal_fallacies",
+    "items": 250,
+    "archived_score": 0.804,
+    "reconstructed_score": 0.804,
+    "published_score": 0.804,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_geometric_shapes",
+    "items": 250,
+    "archived_score": 0.58,
+    "reconstructed_score": 0.58,
+    "published_score": 0.58,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_hyperbaton",
+    "items": 250,
+    "archived_score": 0.788,
+    "reconstructed_score": 0.788,
+    "published_score": 0.788,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_five_objects",
+    "items": 250,
+    "archived_score": 0.692,
+    "reconstructed_score": 0.692,
+    "published_score": 0.692,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_seven_objects",
+    "items": 250,
+    "archived_score": 0.656,
+    "reconstructed_score": 0.656,
+    "published_score": 0.656,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_three_objects",
+    "items": 250,
+    "archived_score": 0.952,
+    "reconstructed_score": 0.952,
+    "published_score": 0.952,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_movie_recommendation",
+    "items": 250,
+    "archived_score": 0.664,
+    "reconstructed_score": 0.664,
+    "published_score": 0.664,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_navigate",
+    "items": 250,
+    "archived_score": 0.748,
+    "reconstructed_score": 0.748,
+    "published_score": 0.748,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_object_counting",
+    "items": 250,
+    "archived_score": 0.372,
+    "reconstructed_score": 0.372,
+    "published_score": 0.372,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_penguins_in_a_table",
+    "items": 146,
+    "archived_score": 0.8082191780821918,
+    "reconstructed_score": 0.8082191780821918,
+    "published_score": 0.8082191780821918,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_reasoning_about_colored_objects",
+    "items": 250,
+    "archived_score": 0.884,
+    "reconstructed_score": 0.884,
+    "published_score": 0.884,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_ruin_names",
+    "items": 250,
+    "archived_score": 0.824,
+    "reconstructed_score": 0.824,
+    "published_score": 0.824,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_salient_translation_error_detection",
+    "items": 250,
+    "archived_score": 0.696,
+    "reconstructed_score": 0.696,
+    "published_score": 0.696,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_snarks",
+    "items": 178,
+    "archived_score": 0.8426966292134831,
+    "reconstructed_score": 0.8426966292134831,
+    "published_score": 0.8426966292134831,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_sports_understanding",
+    "items": 250,
+    "archived_score": 0.82,
+    "reconstructed_score": 0.82,
+    "published_score": 0.82,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_temporal_sequences",
+    "items": 250,
+    "archived_score": 0.892,
+    "reconstructed_score": 0.892,
+    "published_score": 0.892,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_five_objects",
+    "items": 250,
+    "archived_score": 0.252,
+    "reconstructed_score": 0.252,
+    "published_score": 0.252,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_seven_objects",
+    "items": 250,
+    "archived_score": 0.288,
+    "reconstructed_score": 0.288,
+    "published_score": 0.288,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_three_objects",
+    "items": 250,
+    "archived_score": 0.352,
+    "reconstructed_score": 0.352,
+    "published_score": 0.352,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_bbh_web_of_lies",
+    "items": 250,
+    "archived_score": 0.724,
+    "reconstructed_score": 0.724,
+    "published_score": 0.724,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_gpqa_diamond",
+    "items": 198,
+    "archived_score": 0.3434343434343434,
+    "reconstructed_score": 0.3434343434343434,
+    "published_score": 0.3434343434343434,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_gpqa_extended",
+    "items": 546,
+    "archived_score": 0.32051282051282054,
+    "reconstructed_score": 0.32051282051282054,
+    "published_score": 0.32051282051282054,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_gpqa_main",
+    "items": 448,
+    "archived_score": 0.35714285714285715,
+    "reconstructed_score": 0.35714285714285715,
+    "published_score": 0.35714285714285715,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_ifeval",
+    "items": 541,
+    "archived_score": 0.8059149722735675,
+    "reconstructed_score": 0.8059149722735675,
+    "published_score": 0.8059149722735675,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_math_algebra_hard",
+    "items": 307,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.8827361563517915,
+    "published_score": 0.8827361563517915,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_math_counting_and_prob_hard",
+    "items": 123,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.6747967479674797,
+    "published_score": 0.6747967479674797,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_math_geometry_hard",
+    "items": 132,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.4393939393939394,
+    "published_score": 0.4393939393939394,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_math_intermediate_algebra_hard",
+    "items": 280,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.3392857142857143,
+    "published_score": 0.3392857142857143,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_math_num_theory_hard",
+    "items": 154,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.7597402597402597,
+    "published_score": 0.7597402597402597,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_math_prealgebra_hard",
+    "items": 193,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.7979274611398963,
+    "published_score": 0.7979274611398963,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_math_precalculus_hard",
+    "items": 135,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.37037037037037035,
+    "published_score": 0.37037037037037035,
+    "rescored": true
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_mmlu_pro",
+    "items": 12032,
+    "archived_score": 0.566655585106383,
+    "reconstructed_score": 0.566655585106383,
+    "published_score": 0.566655585106383,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_musr_murder_mysteries",
+    "items": 250,
+    "archived_score": 0.592,
+    "reconstructed_score": 0.592,
+    "published_score": 0.592,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_musr_object_placements",
+    "items": 256,
+    "archived_score": 0.234375,
+    "reconstructed_score": 0.234375,
+    "published_score": 0.234375,
+    "rescored": false
+  },
+  {
+    "model": "Qwen/Qwen2.5-32B-Instruct",
+    "task": "leaderboard_musr_team_allocation",
+    "items": 250,
+    "archived_score": 0.452,
+    "reconstructed_score": 0.452,
+    "published_score": 0.452,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_boolean_expressions",
+    "items": 250,
+    "archived_score": 0.916,
+    "reconstructed_score": 0.916,
+    "published_score": 0.916,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_causal_judgement",
+    "items": 187,
+    "archived_score": 0.679144385026738,
+    "reconstructed_score": 0.679144385026738,
+    "published_score": 0.679144385026738,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_date_understanding",
+    "items": 250,
+    "archived_score": 0.704,
+    "reconstructed_score": 0.704,
+    "published_score": 0.704,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_disambiguation_qa",
+    "items": 250,
+    "archived_score": 0.664,
+    "reconstructed_score": 0.664,
+    "published_score": 0.664,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_formal_fallacies",
+    "items": 250,
+    "archived_score": 0.82,
+    "reconstructed_score": 0.82,
+    "published_score": 0.82,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_geometric_shapes",
+    "items": 250,
+    "archived_score": 0.352,
+    "reconstructed_score": 0.352,
+    "published_score": 0.352,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_hyperbaton",
+    "items": 250,
+    "archived_score": 0.708,
+    "reconstructed_score": 0.708,
+    "published_score": 0.708,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_five_objects",
+    "items": 250,
+    "archived_score": 0.656,
+    "reconstructed_score": 0.656,
+    "published_score": 0.656,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_seven_objects",
+    "items": 250,
+    "archived_score": 0.624,
+    "reconstructed_score": 0.624,
+    "published_score": 0.624,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_three_objects",
+    "items": 250,
+    "archived_score": 0.92,
+    "reconstructed_score": 0.92,
+    "published_score": 0.92,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_movie_recommendation",
+    "items": 250,
+    "archived_score": 0.784,
+    "reconstructed_score": 0.784,
+    "published_score": 0.784,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_navigate",
+    "items": 250,
+    "archived_score": 0.696,
+    "reconstructed_score": 0.696,
+    "published_score": 0.696,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_object_counting",
+    "items": 250,
+    "archived_score": 0.58,
+    "reconstructed_score": 0.58,
+    "published_score": 0.58,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_penguins_in_a_table",
+    "items": 146,
+    "archived_score": 0.6438356164383562,
+    "reconstructed_score": 0.6438356164383562,
+    "published_score": 0.6438356164383562,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_reasoning_about_colored_objects",
+    "items": 250,
+    "archived_score": 0.892,
+    "reconstructed_score": 0.892,
+    "published_score": 0.892,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_ruin_names",
+    "items": 250,
+    "archived_score": 0.852,
+    "reconstructed_score": 0.852,
+    "published_score": 0.852,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_salient_translation_error_detection",
+    "items": 250,
+    "archived_score": 0.672,
+    "reconstructed_score": 0.672,
+    "published_score": 0.672,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_snarks",
+    "items": 178,
+    "archived_score": 0.8033707865168539,
+    "reconstructed_score": 0.8033707865168539,
+    "published_score": 0.8033707865168539,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_sports_understanding",
+    "items": 250,
+    "archived_score": 0.952,
+    "reconstructed_score": 0.952,
+    "published_score": 0.952,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_temporal_sequences",
+    "items": 250,
+    "archived_score": 1.0,
+    "reconstructed_score": 1.0,
+    "published_score": 1.0,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_five_objects",
+    "items": 250,
+    "archived_score": 0.324,
+    "reconstructed_score": 0.324,
+    "published_score": 0.324,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_seven_objects",
+    "items": 250,
+    "archived_score": 0.26,
+    "reconstructed_score": 0.26,
+    "published_score": 0.26,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_three_objects",
+    "items": 250,
+    "archived_score": 0.36,
+    "reconstructed_score": 0.36,
+    "published_score": 0.36,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_bbh_web_of_lies",
+    "items": 250,
+    "archived_score": 0.744,
+    "reconstructed_score": 0.744,
+    "published_score": 0.744,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_gpqa_diamond",
+    "items": 198,
+    "archived_score": 0.29292929292929293,
+    "reconstructed_score": 0.29292929292929293,
+    "published_score": 0.29292929292929293,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_gpqa_extended",
+    "items": 546,
+    "archived_score": 0.3424908424908425,
+    "reconstructed_score": 0.3424908424908425,
+    "published_score": 0.3424908424908425,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_gpqa_main",
+    "items": 448,
+    "archived_score": 0.328125,
+    "reconstructed_score": 0.328125,
+    "published_score": 0.328125,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_ifeval",
+    "items": 541,
+    "archived_score": 0.8798521256931608,
+    "reconstructed_score": 0.8798521256931608,
+    "published_score": 0.8798521256931608,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_math_algebra_hard",
+    "items": 307,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.7752442996742671,
+    "published_score": 0.7752442996742671,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_math_counting_and_prob_hard",
+    "items": 123,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.5365853658536586,
+    "published_score": 0.5365853658536586,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_math_geometry_hard",
+    "items": 132,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.3106060606060606,
+    "published_score": 0.3106060606060606,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_math_intermediate_algebra_hard",
+    "items": 280,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.16785714285714284,
+    "published_score": 0.16785714285714284,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_math_num_theory_hard",
+    "items": 154,
+    "archived_score": 0.006493506493506494,
+    "reconstructed_score": 0.4675324675324675,
+    "published_score": 0.4675324675324675,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_math_prealgebra_hard",
+    "items": 193,
+    "archived_score": 0.010362694300518135,
+    "reconstructed_score": 0.7409326424870466,
+    "published_score": 0.7409326424870466,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_math_precalculus_hard",
+    "items": 135,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.24444444444444444,
+    "published_score": 0.24444444444444444,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_mmlu_pro",
+    "items": 12032,
+    "archived_score": 0.5331615691489362,
+    "reconstructed_score": 0.5331615691489362,
+    "published_score": 0.5331615691489362,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_musr_murder_mysteries",
+    "items": 250,
+    "archived_score": 0.536,
+    "reconstructed_score": 0.536,
+    "published_score": 0.536,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_musr_object_placements",
+    "items": 256,
+    "archived_score": 0.234375,
+    "reconstructed_score": 0.234375,
+    "published_score": 0.234375,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "task": "leaderboard_musr_team_allocation",
+    "items": 250,
+    "archived_score": 0.568,
+    "reconstructed_score": 0.568,
+    "published_score": 0.568,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_boolean_expressions",
+    "items": 250,
+    "archived_score": 0.92,
+    "reconstructed_score": 0.92,
+    "published_score": 0.92,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_causal_judgement",
+    "items": 187,
+    "archived_score": 0.6577540106951871,
+    "reconstructed_score": 0.6577540106951871,
+    "published_score": 0.6577540106951871,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_date_understanding",
+    "items": 250,
+    "archived_score": 0.68,
+    "reconstructed_score": 0.68,
+    "published_score": 0.68,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_disambiguation_qa",
+    "items": 250,
+    "archived_score": 0.744,
+    "reconstructed_score": 0.744,
+    "published_score": 0.744,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_formal_fallacies",
+    "items": 250,
+    "archived_score": 0.808,
+    "reconstructed_score": 0.808,
+    "published_score": 0.808,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_geometric_shapes",
+    "items": 250,
+    "archived_score": 0.412,
+    "reconstructed_score": 0.412,
+    "published_score": 0.412,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_hyperbaton",
+    "items": 250,
+    "archived_score": 0.752,
+    "reconstructed_score": 0.752,
+    "published_score": 0.752,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_five_objects",
+    "items": 250,
+    "archived_score": 0.632,
+    "reconstructed_score": 0.632,
+    "published_score": 0.632,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_seven_objects",
+    "items": 250,
+    "archived_score": 0.588,
+    "reconstructed_score": 0.588,
+    "published_score": 0.588,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_logical_deduction_three_objects",
+    "items": 250,
+    "archived_score": 0.92,
+    "reconstructed_score": 0.92,
+    "published_score": 0.92,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_movie_recommendation",
+    "items": 250,
+    "archived_score": 0.78,
+    "reconstructed_score": 0.78,
+    "published_score": 0.78,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_navigate",
+    "items": 250,
+    "archived_score": 0.712,
+    "reconstructed_score": 0.712,
+    "published_score": 0.712,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_object_counting",
+    "items": 250,
+    "archived_score": 0.576,
+    "reconstructed_score": 0.576,
+    "published_score": 0.576,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_penguins_in_a_table",
+    "items": 146,
+    "archived_score": 0.6917808219178082,
+    "reconstructed_score": 0.6917808219178082,
+    "published_score": 0.6917808219178082,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_reasoning_about_colored_objects",
+    "items": 250,
+    "archived_score": 0.856,
+    "reconstructed_score": 0.856,
+    "published_score": 0.856,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_ruin_names",
+    "items": 250,
+    "archived_score": 0.88,
+    "reconstructed_score": 0.88,
+    "published_score": 0.88,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_salient_translation_error_detection",
+    "items": 250,
+    "archived_score": 0.672,
+    "reconstructed_score": 0.672,
+    "published_score": 0.672,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_snarks",
+    "items": 178,
+    "archived_score": 0.7359550561797753,
+    "reconstructed_score": 0.7359550561797753,
+    "published_score": 0.7359550561797753,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_sports_understanding",
+    "items": 250,
+    "archived_score": 0.92,
+    "reconstructed_score": 0.92,
+    "published_score": 0.92,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_temporal_sequences",
+    "items": 250,
+    "archived_score": 1.0,
+    "reconstructed_score": 1.0,
+    "published_score": 1.0,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_five_objects",
+    "items": 250,
+    "archived_score": 0.348,
+    "reconstructed_score": 0.348,
+    "published_score": 0.348,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_seven_objects",
+    "items": 250,
+    "archived_score": 0.368,
+    "reconstructed_score": 0.368,
+    "published_score": 0.368,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_three_objects",
+    "items": 250,
+    "archived_score": 0.34,
+    "reconstructed_score": 0.34,
+    "published_score": 0.34,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_bbh_web_of_lies",
+    "items": 250,
+    "archived_score": 0.608,
+    "reconstructed_score": 0.608,
+    "published_score": 0.608,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_gpqa_diamond",
+    "items": 198,
+    "archived_score": 0.3333333333333333,
+    "reconstructed_score": 0.3333333333333333,
+    "published_score": 0.3333333333333333,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_gpqa_extended",
+    "items": 546,
+    "archived_score": 0.37362637362637363,
+    "reconstructed_score": 0.37362637362637363,
+    "published_score": 0.37362637362637363,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_gpqa_main",
+    "items": 448,
+    "archived_score": 0.34598214285714285,
+    "reconstructed_score": 0.34598214285714285,
+    "published_score": 0.34598214285714285,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_ifeval",
+    "items": 541,
+    "archived_score": 0.8428835489833642,
+    "reconstructed_score": 0.8428835489833642,
+    "published_score": 0.8428835489833642,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_math_algebra_hard",
+    "items": 307,
+    "archived_score": 0.498371335504886,
+    "reconstructed_score": 0.6449511400651465,
+    "published_score": 0.6449511400651465,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_math_counting_and_prob_hard",
+    "items": 123,
+    "archived_score": 0.21138211382113822,
+    "reconstructed_score": 0.34146341463414637,
+    "published_score": 0.34146341463414637,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_math_geometry_hard",
+    "items": 132,
+    "archived_score": 0.15151515151515152,
+    "reconstructed_score": 0.22727272727272727,
+    "published_score": 0.22727272727272727,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_math_intermediate_algebra_hard",
+    "items": 280,
+    "archived_score": 0.07857142857142857,
+    "reconstructed_score": 0.12857142857142856,
+    "published_score": 0.12857142857142856,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_math_num_theory_hard",
+    "items": 154,
+    "archived_score": 0.3116883116883117,
+    "reconstructed_score": 0.35714285714285715,
+    "published_score": 0.35714285714285715,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_math_prealgebra_hard",
+    "items": 193,
+    "archived_score": 0.46632124352331605,
+    "reconstructed_score": 0.6373056994818653,
+    "published_score": 0.6373056994818653,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_math_precalculus_hard",
+    "items": 135,
+    "archived_score": 0.08888888888888889,
+    "reconstructed_score": 0.14814814814814814,
+    "published_score": 0.14814814814814814,
+    "rescored": true
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_mmlu_pro",
+    "items": 12032,
+    "archived_score": 0.5309175531914894,
+    "reconstructed_score": 0.5309175531914894,
+    "published_score": 0.5309175531914894,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_musr_murder_mysteries",
+    "items": 250,
+    "archived_score": 0.56,
+    "reconstructed_score": 0.56,
+    "published_score": 0.56,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_musr_object_placements",
+    "items": 256,
+    "archived_score": 0.2421875,
+    "reconstructed_score": 0.2421875,
+    "published_score": 0.2421875,
+    "rescored": false
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "task": "leaderboard_musr_team_allocation",
+    "items": 250,
+    "archived_score": 0.572,
+    "reconstructed_score": 0.572,
+    "published_score": 0.572,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_boolean_expressions",
+    "items": 250,
+    "archived_score": 0.912,
+    "reconstructed_score": 0.912,
+    "published_score": 0.912,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_causal_judgement",
+    "items": 187,
+    "archived_score": 0.5561497326203209,
+    "reconstructed_score": 0.5561497326203209,
+    "published_score": 0.5561497326203209,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_date_understanding",
+    "items": 250,
+    "archived_score": 0.784,
+    "reconstructed_score": 0.784,
+    "published_score": 0.784,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_disambiguation_qa",
+    "items": 250,
+    "archived_score": 0.752,
+    "reconstructed_score": 0.752,
+    "published_score": 0.752,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_formal_fallacies",
+    "items": 250,
+    "archived_score": 0.696,
+    "reconstructed_score": 0.696,
+    "published_score": 0.696,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_geometric_shapes",
+    "items": 250,
+    "archived_score": 0.432,
+    "reconstructed_score": 0.432,
+    "published_score": 0.432,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_hyperbaton",
+    "items": 250,
+    "archived_score": 0.844,
+    "reconstructed_score": 0.844,
+    "published_score": 0.844,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_logical_deduction_five_objects",
+    "items": 250,
+    "archived_score": 0.676,
+    "reconstructed_score": 0.676,
+    "published_score": 0.676,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_logical_deduction_seven_objects",
+    "items": 250,
+    "archived_score": 0.644,
+    "reconstructed_score": 0.644,
+    "published_score": 0.644,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_logical_deduction_three_objects",
+    "items": 250,
+    "archived_score": 0.94,
+    "reconstructed_score": 0.94,
+    "published_score": 0.94,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_movie_recommendation",
+    "items": 250,
+    "archived_score": 0.824,
+    "reconstructed_score": 0.824,
+    "published_score": 0.824,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_navigate",
+    "items": 250,
+    "archived_score": 0.5,
+    "reconstructed_score": 0.5,
+    "published_score": 0.5,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_object_counting",
+    "items": 250,
+    "archived_score": 0.196,
+    "reconstructed_score": 0.196,
+    "published_score": 0.196,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_penguins_in_a_table",
+    "items": 146,
+    "archived_score": 0.8561643835616438,
+    "reconstructed_score": 0.8561643835616438,
+    "published_score": 0.8561643835616438,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_reasoning_about_colored_objects",
+    "items": 250,
+    "archived_score": 0.908,
+    "reconstructed_score": 0.908,
+    "published_score": 0.908,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_ruin_names",
+    "items": 250,
+    "archived_score": 0.884,
+    "reconstructed_score": 0.884,
+    "published_score": 0.884,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_salient_translation_error_detection",
+    "items": 250,
+    "archived_score": 0.684,
+    "reconstructed_score": 0.684,
+    "published_score": 0.684,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_snarks",
+    "items": 178,
+    "archived_score": 0.8876404494382022,
+    "reconstructed_score": 0.8876404494382022,
+    "published_score": 0.8876404494382022,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_sports_understanding",
+    "items": 250,
+    "archived_score": 0.78,
+    "reconstructed_score": 0.78,
+    "published_score": 0.78,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_temporal_sequences",
+    "items": 250,
+    "archived_score": 0.996,
+    "reconstructed_score": 0.996,
+    "published_score": 0.996,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_five_objects",
+    "items": 250,
+    "archived_score": 0.284,
+    "reconstructed_score": 0.284,
+    "published_score": 0.284,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_seven_objects",
+    "items": 250,
+    "archived_score": 0.336,
+    "reconstructed_score": 0.336,
+    "published_score": 0.336,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_three_objects",
+    "items": 250,
+    "archived_score": 0.336,
+    "reconstructed_score": 0.336,
+    "published_score": 0.336,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_bbh_web_of_lies",
+    "items": 250,
+    "archived_score": 0.484,
+    "reconstructed_score": 0.484,
+    "published_score": 0.484,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_gpqa_diamond",
+    "items": 198,
+    "archived_score": 0.3888888888888889,
+    "reconstructed_score": 0.3888888888888889,
+    "published_score": 0.3888888888888889,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_gpqa_extended",
+    "items": 546,
+    "archived_score": 0.4413919413919414,
+    "reconstructed_score": 0.4413919413919414,
+    "published_score": 0.4413919413919414,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_gpqa_main",
+    "items": 448,
+    "archived_score": 0.453125,
+    "reconstructed_score": 0.453125,
+    "published_score": 0.453125,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_ifeval",
+    "items": 541,
+    "archived_score": 0.8096118299445472,
+    "reconstructed_score": 0.8096118299445472,
+    "published_score": 0.8096118299445472,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_math_algebra_hard",
+    "items": 307,
+    "archived_score": 0.019543973941368076,
+    "reconstructed_score": 0.758957654723127,
+    "published_score": 0.758957654723127,
+    "rescored": true
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_math_counting_and_prob_hard",
+    "items": 123,
+    "archived_score": 0.024390243902439025,
+    "reconstructed_score": 0.4796747967479675,
+    "published_score": 0.4796747967479675,
+    "rescored": true
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_math_geometry_hard",
+    "items": 132,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.3106060606060606,
+    "published_score": 0.3106060606060606,
+    "rescored": true
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_math_intermediate_algebra_hard",
+    "items": 280,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.23214285714285715,
+    "published_score": 0.23214285714285715,
+    "rescored": true
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_math_num_theory_hard",
+    "items": 154,
+    "archived_score": 0.012987012987012988,
+    "reconstructed_score": 0.5194805194805194,
+    "published_score": 0.5194805194805194,
+    "rescored": true
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_math_prealgebra_hard",
+    "items": 193,
+    "archived_score": 0.015544041450777202,
+    "reconstructed_score": 0.7357512953367875,
+    "published_score": 0.7357512953367875,
+    "rescored": true
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_math_precalculus_hard",
+    "items": 135,
+    "archived_score": 0.007407407407407408,
+    "reconstructed_score": 0.26666666666666666,
+    "published_score": 0.26666666666666666,
+    "rescored": true
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_mmlu_pro",
+    "items": 12032,
+    "archived_score": 0.5561835106382979,
+    "reconstructed_score": 0.5561835106382979,
+    "published_score": 0.5561835106382979,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_musr_murder_mysteries",
+    "items": 250,
+    "archived_score": 0.572,
+    "reconstructed_score": 0.572,
+    "published_score": 0.572,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_musr_object_placements",
+    "items": 256,
+    "archived_score": 0.25,
+    "reconstructed_score": 0.25,
+    "published_score": 0.25,
+    "rescored": false
+  },
+  {
+    "model": "mistralai/Mistral-Large-Instruct-2411",
+    "task": "leaderboard_musr_team_allocation",
+    "items": 250,
+    "archived_score": 0.54,
+    "reconstructed_score": 0.54,
+    "published_score": 0.54,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_boolean_expressions",
+    "items": 250,
+    "archived_score": 0.872,
+    "reconstructed_score": 0.872,
+    "published_score": 0.872,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_causal_judgement",
+    "items": 187,
+    "archived_score": 0.6096256684491979,
+    "reconstructed_score": 0.6096256684491979,
+    "published_score": 0.6096256684491979,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_date_understanding",
+    "items": 250,
+    "archived_score": 0.656,
+    "reconstructed_score": 0.656,
+    "published_score": 0.656,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_disambiguation_qa",
+    "items": 250,
+    "archived_score": 0.736,
+    "reconstructed_score": 0.736,
+    "published_score": 0.736,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_formal_fallacies",
+    "items": 250,
+    "archived_score": 0.628,
+    "reconstructed_score": 0.628,
+    "published_score": 0.628,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_geometric_shapes",
+    "items": 250,
+    "archived_score": 0.456,
+    "reconstructed_score": 0.456,
+    "published_score": 0.456,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_hyperbaton",
+    "items": 250,
+    "archived_score": 0.788,
+    "reconstructed_score": 0.788,
+    "published_score": 0.788,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_logical_deduction_five_objects",
+    "items": 250,
+    "archived_score": 0.592,
+    "reconstructed_score": 0.592,
+    "published_score": 0.592,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_logical_deduction_seven_objects",
+    "items": 250,
+    "archived_score": 0.568,
+    "reconstructed_score": 0.568,
+    "published_score": 0.568,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_logical_deduction_three_objects",
+    "items": 250,
+    "archived_score": 0.836,
+    "reconstructed_score": 0.836,
+    "published_score": 0.836,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_movie_recommendation",
+    "items": 250,
+    "archived_score": 0.696,
+    "reconstructed_score": 0.696,
+    "published_score": 0.696,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_navigate",
+    "items": 250,
+    "archived_score": 0.696,
+    "reconstructed_score": 0.696,
+    "published_score": 0.696,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_object_counting",
+    "items": 250,
+    "archived_score": 0.356,
+    "reconstructed_score": 0.356,
+    "published_score": 0.356,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_penguins_in_a_table",
+    "items": 146,
+    "archived_score": 0.7054794520547946,
+    "reconstructed_score": 0.7054794520547946,
+    "published_score": 0.7054794520547946,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_reasoning_about_colored_objects",
+    "items": 250,
+    "archived_score": 0.816,
+    "reconstructed_score": 0.816,
+    "published_score": 0.816,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_ruin_names",
+    "items": 250,
+    "archived_score": 0.816,
+    "reconstructed_score": 0.816,
+    "published_score": 0.816,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_salient_translation_error_detection",
+    "items": 250,
+    "archived_score": 0.6,
+    "reconstructed_score": 0.6,
+    "published_score": 0.6,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_snarks",
+    "items": 178,
+    "archived_score": 0.8202247191011236,
+    "reconstructed_score": 0.8202247191011236,
+    "published_score": 0.8202247191011236,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_sports_understanding",
+    "items": 250,
+    "archived_score": 0.836,
+    "reconstructed_score": 0.836,
+    "published_score": 0.836,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_temporal_sequences",
+    "items": 250,
+    "archived_score": 0.896,
+    "reconstructed_score": 0.896,
+    "published_score": 0.896,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_five_objects",
+    "items": 250,
+    "archived_score": 0.288,
+    "reconstructed_score": 0.288,
+    "published_score": 0.288,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_seven_objects",
+    "items": 250,
+    "archived_score": 0.292,
+    "reconstructed_score": 0.292,
+    "published_score": 0.292,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_three_objects",
+    "items": 250,
+    "archived_score": 0.384,
+    "reconstructed_score": 0.384,
+    "published_score": 0.384,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_bbh_web_of_lies",
+    "items": 250,
+    "archived_score": 0.54,
+    "reconstructed_score": 0.54,
+    "published_score": 0.54,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_gpqa_diamond",
+    "items": 198,
+    "archived_score": 0.3939393939393939,
+    "reconstructed_score": 0.3939393939393939,
+    "published_score": 0.3939393939393939,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_gpqa_extended",
+    "items": 546,
+    "archived_score": 0.3717948717948718,
+    "reconstructed_score": 0.3717948717948718,
+    "published_score": 0.3717948717948718,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_gpqa_main",
+    "items": 448,
+    "archived_score": 0.3705357142857143,
+    "reconstructed_score": 0.3705357142857143,
+    "published_score": 0.3705357142857143,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_ifeval",
+    "items": 541,
+    "archived_score": 0.7634011090573013,
+    "reconstructed_score": 0.7634011090573013,
+    "published_score": 0.7634011090573013,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_math_algebra_hard",
+    "items": 307,
+    "archived_score": 0.016286644951140065,
+    "reconstructed_score": 0.43973941368078173,
+    "published_score": 0.43973941368078173,
+    "rescored": true
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_math_counting_and_prob_hard",
+    "items": 123,
+    "archived_score": 0.008130081300813009,
+    "reconstructed_score": 0.15447154471544716,
+    "published_score": 0.15447154471544716,
+    "rescored": true
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_math_geometry_hard",
+    "items": 132,
+    "archived_score": 0.007575757575757576,
+    "reconstructed_score": 0.09090909090909091,
+    "published_score": 0.09090909090909091,
+    "rescored": true
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_math_intermediate_algebra_hard",
+    "items": 280,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.04642857142857143,
+    "published_score": 0.04642857142857143,
+    "rescored": true
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_math_num_theory_hard",
+    "items": 154,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.22077922077922077,
+    "published_score": 0.22077922077922077,
+    "rescored": true
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_math_prealgebra_hard",
+    "items": 193,
+    "archived_score": 0.010362694300518135,
+    "reconstructed_score": 0.48704663212435234,
+    "published_score": 0.48704663212435234,
+    "rescored": true
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_math_precalculus_hard",
+    "items": 135,
+    "archived_score": 0.0,
+    "reconstructed_score": 0.06666666666666667,
+    "published_score": 0.06666666666666667,
+    "rescored": true
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_mmlu_pro",
+    "items": 12032,
+    "archived_score": 0.4451462765957447,
+    "reconstructed_score": 0.4451462765957447,
+    "published_score": 0.4451462765957447,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_musr_murder_mysteries",
+    "items": 250,
+    "archived_score": 0.544,
+    "reconstructed_score": 0.544,
+    "published_score": 0.544,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_musr_object_placements",
+    "items": 256,
+    "archived_score": 0.25390625,
+    "reconstructed_score": 0.25390625,
+    "published_score": 0.25390625,
+    "rescored": false
+  },
+  {
+    "model": "google/gemma-2-27b-it",
+    "task": "leaderboard_musr_team_allocation",
+    "items": 250,
+    "archived_score": 0.412,
+    "reconstructed_score": 0.412,
+    "published_score": 0.412,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_boolean_expressions",
+    "items": 250,
+    "archived_score": 0.86,
+    "reconstructed_score": 0.86,
+    "published_score": 0.86,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_causal_judgement",
+    "items": 187,
+    "archived_score": 0.5668449197860963,
+    "reconstructed_score": 0.5668449197860963,
+    "published_score": 0.5668449197860963,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_date_understanding",
+    "items": 250,
+    "archived_score": 0.612,
+    "reconstructed_score": 0.612,
+    "published_score": 0.612,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_disambiguation_qa",
+    "items": 250,
+    "archived_score": 0.664,
+    "reconstructed_score": 0.664,
+    "published_score": 0.664,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_formal_fallacies",
+    "items": 250,
+    "archived_score": 0.644,
+    "reconstructed_score": 0.644,
+    "published_score": 0.644,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_geometric_shapes",
+    "items": 250,
+    "archived_score": 0.332,
+    "reconstructed_score": 0.332,
+    "published_score": 0.332,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_hyperbaton",
+    "items": 250,
+    "archived_score": 0.644,
+    "reconstructed_score": 0.644,
+    "published_score": 0.644,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_logical_deduction_five_objects",
+    "items": 250,
+    "archived_score": 0.576,
+    "reconstructed_score": 0.576,
+    "published_score": 0.576,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_logical_deduction_seven_objects",
+    "items": 250,
+    "archived_score": 0.524,
+    "reconstructed_score": 0.524,
+    "published_score": 0.524,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_logical_deduction_three_objects",
+    "items": 250,
+    "archived_score": 0.8,
+    "reconstructed_score": 0.8,
+    "published_score": 0.8,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_movie_recommendation",
+    "items": 250,
+    "archived_score": 0.788,
+    "reconstructed_score": 0.788,
+    "published_score": 0.788,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_navigate",
+    "items": 250,
+    "archived_score": 0.7,
+    "reconstructed_score": 0.7,
+    "published_score": 0.7,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_object_counting",
+    "items": 250,
+    "archived_score": 0.476,
+    "reconstructed_score": 0.476,
+    "published_score": 0.476,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_penguins_in_a_table",
+    "items": 146,
+    "archived_score": 0.7602739726027398,
+    "reconstructed_score": 0.7602739726027398,
+    "published_score": 0.7602739726027398,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_reasoning_about_colored_objects",
+    "items": 250,
+    "archived_score": 0.656,
+    "reconstructed_score": 0.656,
+    "published_score": 0.656,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_ruin_names",
+    "items": 250,
+    "archived_score": 0.804,
+    "reconstructed_score": 0.804,
+    "published_score": 0.804,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_salient_translation_error_detection",
+    "items": 250,
+    "archived_score": 0.608,
+    "reconstructed_score": 0.608,
+    "published_score": 0.608,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_snarks",
+    "items": 178,
+    "archived_score": 0.7752808988764045,
+    "reconstructed_score": 0.7752808988764045,
+    "published_score": 0.7752808988764045,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_sports_understanding",
+    "items": 250,
+    "archived_score": 0.776,
+    "reconstructed_score": 0.776,
+    "published_score": 0.776,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_temporal_sequences",
+    "items": 250,
+    "archived_score": 0.52,
+    "reconstructed_score": 0.52,
+    "published_score": 0.52,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_five_objects",
+    "items": 250,
+    "archived_score": 0.24,
+    "reconstructed_score": 0.24,
+    "published_score": 0.24,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_seven_objects",
+    "items": 250,
+    "archived_score": 0.228,
+    "reconstructed_score": 0.228,
+    "published_score": 0.228,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_three_objects",
+    "items": 250,
+    "archived_score": 0.404,
+    "reconstructed_score": 0.404,
+    "published_score": 0.404,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_bbh_web_of_lies",
+    "items": 250,
+    "archived_score": 0.432,
+    "reconstructed_score": 0.432,
+    "published_score": 0.432,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_gpqa_diamond",
+    "items": 198,
+    "archived_score": 0.3333333333333333,
+    "reconstructed_score": 0.3333333333333333,
+    "published_score": 0.3333333333333333,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_gpqa_extended",
+    "items": 546,
+    "archived_score": 0.34798534798534797,
+    "reconstructed_score": 0.34798534798534797,
+    "published_score": 0.34798534798534797,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_gpqa_main",
+    "items": 448,
+    "archived_score": 0.36160714285714285,
+    "reconstructed_score": 0.36160714285714285,
+    "published_score": 0.36160714285714285,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_ifeval",
+    "items": 541,
+    "archived_score": 0.7153419593345656,
+    "reconstructed_score": 0.7153419593345656,
+    "published_score": 0.7153419593345656,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_math_algebra_hard",
+    "items": 307,
+    "archived_score": 0.16286644951140064,
+    "reconstructed_score": 0.20846905537459284,
+    "published_score": 0.20846905537459284,
+    "rescored": true
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_math_counting_and_prob_hard",
+    "items": 123,
+    "archived_score": 0.04878048780487805,
+    "reconstructed_score": 0.04878048780487805,
+    "published_score": 0.04878048780487805,
+    "rescored": true
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_math_geometry_hard",
+    "items": 132,
+    "archived_score": 0.030303030303030304,
+    "reconstructed_score": 0.030303030303030304,
+    "published_score": 0.030303030303030304,
+    "rescored": true
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_math_intermediate_algebra_hard",
+    "items": 280,
+    "archived_score": 0.02857142857142857,
+    "reconstructed_score": 0.02857142857142857,
+    "published_score": 0.02857142857142857,
+    "rescored": true
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_math_num_theory_hard",
+    "items": 154,
+    "archived_score": 0.11038961038961038,
+    "reconstructed_score": 0.1038961038961039,
+    "published_score": 0.1038961038961039,
+    "rescored": true
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_math_prealgebra_hard",
+    "items": 193,
+    "archived_score": 0.3005181347150259,
+    "reconstructed_score": 0.32642487046632124,
+    "published_score": 0.32642487046632124,
+    "rescored": true
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_math_precalculus_hard",
+    "items": 135,
+    "archived_score": 0.022222222222222223,
+    "reconstructed_score": 0.022222222222222223,
+    "published_score": 0.022222222222222223,
+    "rescored": true
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_mmlu_pro",
+    "items": 12032,
+    "archived_score": 0.44207114361702127,
+    "reconstructed_score": 0.44207114361702127,
+    "published_score": 0.44207114361702127,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_musr_murder_mysteries",
+    "items": 250,
+    "archived_score": 0.576,
+    "reconstructed_score": 0.576,
+    "published_score": 0.576,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_musr_object_placements",
+    "items": 256,
+    "archived_score": 0.46484375,
+    "reconstructed_score": 0.46484375,
+    "published_score": 0.46484375,
+    "rescored": false
+  },
+  {
+    "model": "CohereForAI/c4ai-command-r-plus-08-2024",
+    "task": "leaderboard_musr_team_allocation",
+    "items": 250,
+    "archived_score": 0.408,
+    "reconstructed_score": 0.408,
+    "published_score": 0.408,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_boolean_expressions",
+    "items": 250,
+    "archived_score": 0.892,
+    "reconstructed_score": 0.892,
+    "published_score": 0.892,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_causal_judgement",
+    "items": 187,
+    "archived_score": 0.6363636363636364,
+    "reconstructed_score": 0.6363636363636364,
+    "published_score": 0.6363636363636364,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_date_understanding",
+    "items": 250,
+    "archived_score": 0.62,
+    "reconstructed_score": 0.62,
+    "published_score": 0.62,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_disambiguation_qa",
+    "items": 250,
+    "archived_score": 0.728,
+    "reconstructed_score": 0.728,
+    "published_score": 0.728,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_formal_fallacies",
+    "items": 250,
+    "archived_score": 0.728,
+    "reconstructed_score": 0.728,
+    "published_score": 0.728,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_geometric_shapes",
+    "items": 250,
+    "archived_score": 0.432,
+    "reconstructed_score": 0.432,
+    "published_score": 0.432,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_hyperbaton",
+    "items": 250,
+    "archived_score": 0.868,
+    "reconstructed_score": 0.868,
+    "published_score": 0.868,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_logical_deduction_five_objects",
+    "items": 250,
+    "archived_score": 0.576,
+    "reconstructed_score": 0.576,
+    "published_score": 0.576,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_logical_deduction_seven_objects",
+    "items": 250,
+    "archived_score": 0.448,
+    "reconstructed_score": 0.448,
+    "published_score": 0.448,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_logical_deduction_three_objects",
+    "items": 250,
+    "archived_score": 0.864,
+    "reconstructed_score": 0.864,
+    "published_score": 0.864,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_movie_recommendation",
+    "items": 250,
+    "archived_score": 0.792,
+    "reconstructed_score": 0.792,
+    "published_score": 0.792,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_navigate",
+    "items": 250,
+    "archived_score": 0.684,
+    "reconstructed_score": 0.684,
+    "published_score": 0.684,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_object_counting",
+    "items": 250,
+    "archived_score": 0.416,
+    "reconstructed_score": 0.416,
+    "published_score": 0.416,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_penguins_in_a_table",
+    "items": 146,
+    "archived_score": 0.6643835616438356,
+    "reconstructed_score": 0.6643835616438356,
+    "published_score": 0.6643835616438356,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_reasoning_about_colored_objects",
+    "items": 250,
+    "archived_score": 0.756,
+    "reconstructed_score": 0.756,
+    "published_score": 0.756,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_ruin_names",
+    "items": 250,
+    "archived_score": 0.848,
+    "reconstructed_score": 0.848,
+    "published_score": 0.848,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_salient_translation_error_detection",
+    "items": 250,
+    "archived_score": 0.592,
+    "reconstructed_score": 0.592,
+    "published_score": 0.592,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_snarks",
+    "items": 178,
+    "archived_score": 0.8651685393258427,
+    "reconstructed_score": 0.8651685393258427,
+    "published_score": 0.8651685393258427,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_sports_understanding",
+    "items": 250,
+    "archived_score": 0.716,
+    "reconstructed_score": 0.716,
+    "published_score": 0.716,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_temporal_sequences",
+    "items": 250,
+    "archived_score": 0.992,
+    "reconstructed_score": 0.992,
+    "published_score": 0.992,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_five_objects",
+    "items": 250,
+    "archived_score": 0.212,
+    "reconstructed_score": 0.212,
+    "published_score": 0.212,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_seven_objects",
+    "items": 250,
+    "archived_score": 0.248,
+    "reconstructed_score": 0.248,
+    "published_score": 0.248,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_tracking_shuffled_objects_three_objects",
+    "items": 250,
+    "archived_score": 0.352,
+    "reconstructed_score": 0.352,
+    "published_score": 0.352,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_bbh_web_of_lies",
+    "items": 250,
+    "archived_score": 0.46,
+    "reconstructed_score": 0.46,
+    "published_score": 0.46,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_gpqa_diamond",
+    "items": 198,
+    "archived_score": 0.3484848484848485,
+    "reconstructed_score": 0.3484848484848485,
+    "published_score": 0.3484848484848485,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_gpqa_extended",
+    "items": 546,
+    "archived_score": 0.3333333333333333,
+    "reconstructed_score": 0.3333333333333333,
+    "published_score": 0.3333333333333333,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_gpqa_main",
+    "items": 448,
+    "archived_score": 0.33482142857142855,
+    "reconstructed_score": 0.33482142857142855,
+    "published_score": 0.33482142857142855,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_ifeval",
+    "items": 541,
+    "archived_score": 0.5914972273567468,
+    "reconstructed_score": 0.5914972273567468,
+    "published_score": 0.5914972273567468,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_math_algebra_hard",
+    "items": 307,
+    "archived_score": 0.28664495114006516,
+    "reconstructed_score": 0.3550488599348534,
+    "published_score": 0.3550488599348534,
+    "rescored": true
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_math_counting_and_prob_hard",
+    "items": 123,
+    "archived_score": 0.14634146341463414,
+    "reconstructed_score": 0.16260162601626016,
+    "published_score": 0.16260162601626016,
+    "rescored": true
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_math_geometry_hard",
+    "items": 132,
+    "archived_score": 0.03787878787878788,
+    "reconstructed_score": 0.05303030303030303,
+    "published_score": 0.05303030303030303,
+    "rescored": true
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_math_intermediate_algebra_hard",
+    "items": 280,
+    "archived_score": 0.02857142857142857,
+    "reconstructed_score": 0.03571428571428571,
+    "published_score": 0.03571428571428571,
+    "rescored": true
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_math_num_theory_hard",
+    "items": 154,
+    "archived_score": 0.16233766233766234,
+    "reconstructed_score": 0.17532467532467533,
+    "published_score": 0.17532467532467533,
+    "rescored": true
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_math_prealgebra_hard",
+    "items": 193,
+    "archived_score": 0.39378238341968913,
+    "reconstructed_score": 0.41968911917098445,
+    "published_score": 0.41968911917098445,
+    "rescored": true
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_math_precalculus_hard",
+    "items": 135,
+    "archived_score": 0.037037037037037035,
+    "reconstructed_score": 0.037037037037037035,
+    "published_score": 0.037037037037037035,
+    "rescored": true
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_mmlu_pro",
+    "items": 12032,
+    "archived_score": 0.4675864361702128,
+    "reconstructed_score": 0.4675864361702128,
+    "published_score": 0.4675864361702128,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_musr_murder_mysteries",
+    "items": 250,
+    "archived_score": 0.592,
+    "reconstructed_score": 0.592,
+    "published_score": 0.592,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_musr_object_placements",
+    "items": 256,
+    "archived_score": 0.28125,
+    "reconstructed_score": 0.28125,
+    "published_score": 0.28125,
+    "rescored": false
+  },
+  {
+    "model": "microsoft/Phi-3-medium-4k-instruct",
+    "task": "leaderboard_musr_team_allocation",
+    "items": 250,
+    "archived_score": 0.404,
+    "reconstructed_score": 0.404,
+    "published_score": 0.404,
+    "rescored": false
+  }
+]

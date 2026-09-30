@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "analysis": "Post-hoc metric extension from frozen scoring records; no attack rerun.",
+  "definition": "Held-out score of the original public-selected genuine model minus the held-out score of the public-selected model after adding the final router, in pp.",
+  "evaluation": "Equal mean across the six original LiveBench categories, unchanged across feedback dimensions.",
+  "selection": "Minimize round(1 - public mean, 10); genuine models in lexical order precede the router.",
+  "aggregation": "Mean of three grouping-specific means over the same 250 paired trials. Aliases are not independent trials.",
+  "intervals": "Bars show min/max of grouping-specific means. CSV also retains descriptive paired percentile 95% intervals from 2000 resamples, seed 2026081900.",
+  "source_sha256": {
+    "results/feedback_dimension_v1/evaluation.npz": "06ebfa7fc3c8dffaaaac5077ad37b8e2200bfc85d035967e3aeec3cecd25488a",
+    "results/feedback_dimension_v1/protocol.json": "f6528ffca7e2d0d424d460daf18be68fd7de905802e6436e42b1ffc4cf367413",
+    "results/feedback_dimension_v1/groupings.json": "31fd42e98e28ed9d999cae61bb79bfca1f601ce85a8acf4a9162c8aa495f7bc0",
+    "results/feedback_dimension_v1/dimension_budget_curves.csv": "a947180277e388ccb7312da1746b2f133a396fbe9774c6dd9aa0e67b660c56ab",
+    "results/no_attack_v1/trials.csv": "49e49bbe8cab69c0cf6c9c85f539de0364cc49d14e4cb9bc5afb215401d318bc",
+    "site/data/selection_loss_trials.csv": "2e44c59550b5bc4505c00ce88738389e943af83755c7869f38ef3de7afa49dc9"
+  },
+  "unique_outcomes_checked": 42000,
+  "dimension_18_trial_losses_matched": 2750,
+  "checks": [
+    "All 250 no-attack choices and held-out scores match the frozen reference.",
+    "All 42000 public choices independently checked with scalar arithmetic.",
+    "All d=18 losses and selected-router flags match Figure 1 trial records.",
+    "All 72 false-winner means reproduce the original controlled-study table."
+  ]
+}

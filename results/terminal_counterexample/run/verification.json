@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "records": 3000,
+  "protocol_sha256": "c8f4d460c6db69dd852d106873c9b2386536d38f63b904bcb405020d50a48fe3",
+  "checks": [
+    "Inputs and source code covered by the packaged reproduction protocol",
+    "Task repeats never cross partitions; coordinate-stratified split uses public hashes only",
+    "All routing fits and selections precede held-out evaluation",
+    "Every final router independently replayed from integer weights on task scores",
+    "Genuine aggregate scores match direct task means",
+    "All model choices and paired loss arithmetic independently checked"
+  ]
+}

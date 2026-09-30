@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "trials": 1250,
+  "checks": [
+    "Independent scalar reconstruction of public selection, held-out scores, ranks and regret",
+    "Both archived endpoint policies have identical genuine profiles",
+    "All five mean preload gaps match published no-attack baselines",
+    "Shared-bootstrap summaries reconstructed"
+  ]
+}

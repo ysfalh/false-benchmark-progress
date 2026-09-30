@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "outcomes_verified": 30000,
+  "public_choices_verified": 2500,
+  "public_profiles_reconstructed": 1250,
+  "summary_rows_verified": 120,
+  "metric_tolerance_pp": 1e-10,
+  "checks": [
+    "Input and release checksums",
+    "Independent public-only endpoint selection",
+    "Independent score, rank, and regret recomputation",
+    "All genuine public feedback reconstructed from bundled item inputs",
+    "Complete paired-trial bootstrap summaries",
+    "Headline and threshold agreement, including unreached thresholds",
+    "Existing LiveBench non-leading-endpoint diagnostic",
+    "Standard report regeneration: all three CSVs byte-identical"
+  ],
+  "reproduction_smoke": [
+    {
+      "benchmark": "openllm_v2",
+      "trial_ids": [
+        0
+      ],
+      "outcomes": 24,
+      "public_profiles": "exact match",
+      "endpoints_ranks_and_events": "exact match",
+      "floating_metric_tolerance_pp": 1e-10
+    },
+    {
+      "benchmark": "swe_verified",
+      "trial_ids": [
+        0
+      ],
+      "outcomes": 24,
+      "public_profiles": "exact match",
+      "endpoints_ranks_and_events": "exact match",
+      "floating_metric_tolerance_pp": 1e-10
+    }
+  ],
+  "reproduction_scope": "One complete trial, both policies and all budgets, rerun for each new adapter. Other trials checked from saved evaluation records; existing three benchmarks copied unchanged from release_v1."
+}

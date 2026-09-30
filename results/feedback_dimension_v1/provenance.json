@@ -1,0 +1,39 @@
+{
+  "description": "Published numerical records and task groupings; current package integrity is recorded below.",
+  "files": {
+    "dimension_budget_curves.csv": {
+      "sha256": "a947180277e388ccb7312da1746b2f133a396fbe9774c6dd9aa0e67b660c56ab"
+    },
+    "evaluation.npz": {
+      "sha256": "06ebfa7fc3c8dffaaaac5077ad37b8e2200bfc85d035967e3aeec3cecd25488a"
+    },
+    "exact_coordinate_matches.csv": {
+      "sha256": "3524b950a2fc702f770d6b8a4af3091cb833f732fecee446b422a2c9796f14a9"
+    },
+    "groupings.json": {
+      "sha256": "31fd42e98e28ed9d999cae61bb79bfca1f601ce85a8acf4a9162c8aa495f7bc0"
+    },
+    "partition_budget_curves.csv": {
+      "sha256": "42a8fa32eaec8bfa8ed973485d09074f43e8f3509a9f624a5dbb750e2b519d54"
+    },
+    "protocol.json": {
+      "sha256": "f6528ffca7e2d0d424d460daf18be68fd7de905802e6436e42b1ffc4cf367413"
+    },
+    "protocol_lock.json": {
+      "sha256": "c81ccf2bc7c4e9c75d6f28cbc7c5c0dc26a4601be5f69fd6b5564c959335b58b"
+    },
+    "routing_records.json": {
+      "sha256": "8dfeafb29a6159afc89a75591a7df7857ebb0e09605db97e101532cddae66e99"
+    },
+    "static_controls.csv": {
+      "sha256": "a48bb5308b6c1901466b0abed5e06cd0fc87b620586aebe268ff9a378cea3826"
+    },
+    "thresholds.csv": {
+      "sha256": "fb27006cab1951c340dcedd018c90fe071c3ca62a35ccc65da7f47573d5a3875"
+    },
+    "trials.parquet": {
+      "sha256": "69cf1c89929b2df1567fed70de3fdc0a4465476be22b2fbe04c45442e8834589"
+    }
+  },
+  "compact_records": "evaluation.npz stacks all 250 trial traces; routing_records.json contains endpoint indices, fitted rules, and hashes of all released feedback tables and final routing decisions."
+}

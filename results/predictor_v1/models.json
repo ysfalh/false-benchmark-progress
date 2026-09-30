@@ -1,0 +1,12 @@
+{
+  "score_gap_plus2": {
+    "coefficient": 0.4397395146051943,
+    "training_count": 20,
+    "formula": "k = 1 + c*n/d"
+  },
+  "false90": {
+    "coefficient": 58.779370191787386,
+    "training_count": 18,
+    "formula": "k = 1 + c/d"
+  }
+}

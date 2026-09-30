@@ -1,0 +1,172 @@
+[
+  {
+    "file": "CSVTable_2024_08_31.js",
+    "url": "https://raw.githubusercontent.com/LiveBench/livebench.github.io/1fadceff99bda3f8044aefda9a55e15f8c148c56/src/Table/CSVTable_2024_08_31.js",
+    "sha256": "1e6da2002c6e33dd082ca346a566a10bc331f89ed03a2f225c0035451638976b"
+  },
+  {
+    "file": "Averaging.js",
+    "url": "https://raw.githubusercontent.com/LiveBench/livebench.github.io/1fadceff99bda3f8044aefda9a55e15f8c148c56/src/Table/Averaging.js",
+    "sha256": "bbac3185185a72fa4e3e28ba1aa45d2ddbe1c2b13fcdc5843869c46fe89124d7"
+  },
+  {
+    "file": "SortTable.js",
+    "url": "https://raw.githubusercontent.com/LiveBench/livebench.github.io/1fadceff99bda3f8044aefda9a55e15f8c148c56/src/Table/SortTable.js",
+    "sha256": "c2c9b555d1a8e12b6e5a3ee60c852f95a9cd84d3ea775e34d2b523952d63ef49"
+  },
+  {
+    "file": "categories_2024_08_31.json",
+    "url": "https://raw.githubusercontent.com/LiveBench/livebench.github.io/1fadceff99bda3f8044aefda9a55e15f8c148c56/public/categories_2024_08_31.json",
+    "sha256": "31382962c060909421a3f2d8fe9f2194daadc252f654647daa8f684efbbe674b"
+  },
+  {
+    "file": "table_2024_08_31.csv",
+    "url": "https://raw.githubusercontent.com/LiveBench/livebench.github.io/1fadceff99bda3f8044aefda9a55e15f8c148c56/public/table_2024_08_31.csv",
+    "sha256": "c8f26dd65175494bb5671d70e7b5573e92a90c990e7a69be20747480765d9932"
+  },
+  {
+    "file": "show_livebench_result.py",
+    "url": "https://raw.githubusercontent.com/LiveBench/LiveBench/3953c6cb2f478285ad28e7372383276ccfea692c/livebench/show_livebench_result.py",
+    "sha256": "396f8bb2ce62a15005476c9c0db6b8e1f005d3330cb6657287e79cca81ffe21b"
+  },
+  {
+    "file": "README.md",
+    "url": "https://raw.githubusercontent.com/LiveBench/LiveBench/3953c6cb2f478285ad28e7372383276ccfea692c/README.md",
+    "sha256": "9473d18aa0b080c5887d511eb478511c138d9a38e0a93ce71a6087380c212107"
+  },
+  {
+    "file": "website_commit.json",
+    "url": "https://api.github.com/repos/LiveBench/livebench.github.io/commits?until=2024-10-22T23:59:59Z&per_page=1",
+    "sha256": "aeb4fbdeb73681cb74c2b2c961a7862982ab587906290bb33a2de4a53dff0d98"
+  },
+  {
+    "file": "deployment_commit.json",
+    "url": "https://api.github.com/repos/LiveBench/livebench.github.io/commits?sha=gh-pages&until=2024-10-22T23:59:59Z&per_page=1",
+    "sha256": "cd5a1b4a7838afc1a349cc8cabab186bea4069240e681b4d27518b6a6dd271e3"
+  },
+  {
+    "file": "deployed_table_2024_08_31.csv",
+    "url": "https://raw.githubusercontent.com/LiveBench/livebench.github.io/9a5d135f071c6c73aa9b8ede5884315d07cfbd0e/table_2024_08_31.csv",
+    "sha256": "c8f26dd65175494bb5671d70e7b5573e92a90c990e7a69be20747480765d9932"
+  },
+  {
+    "name": "helm_capabilities_config.js",
+    "url": "https://crfm.stanford.edu/helm/capabilities/v1.15.0/config.js",
+    "sha256": "8e778f217425b39602f41a0341f3899f1e8bf2dcdc6866e7da8932d3a8876816",
+    "bytes": 181
+  },
+  {
+    "name": "helm_capabilities_core_scenarios.json",
+    "url": "https://storage.googleapis.com/crfm-helm-public/capabilities/benchmark_output/releases/v1.15.0/groups/core_scenarios.json",
+    "sha256": "63e1661cf2158549e56da402bec46d0be439959a8db8a78603da28d3543bc04c",
+    "bytes": 772914
+  },
+  {
+    "name": "helm_capabilities_historical_RowValue.tsx",
+    "url": "https://raw.githubusercontent.com/stanford-crfm/helm/c455152dec057b3421d4f2f0527b916d6965f913/helm-frontend/src/components/RowValue.tsx",
+    "sha256": "e3c64ba7f7f70253346fc1aea82744eda5952c4c09ed373b043016c72fb383a4",
+    "bytes": 2685
+  },
+  {
+    "name": "helm_capabilities_historical_commit.json",
+    "url": "https://api.github.com/repos/stanford-crfm/helm/commits?until=2025-11-25T00%3A00%3A00Z&per_page=1",
+    "sha256": "0585e31db00684551ee048c45cce3929f93b371c3f371ad8a28567658f13c5cc",
+    "bytes": 4708
+  },
+  {
+    "name": "helm_capabilities_historical_getGroupTablesByName.ts",
+    "url": "https://raw.githubusercontent.com/stanford-crfm/helm/c455152dec057b3421d4f2f0527b916d6965f913/helm-frontend/src/services/getGroupTablesByName.ts",
+    "sha256": "e77e54e490d10a571d88294c1749c43b8d4d248b36ad8b3596c8d78d4f0920c6",
+    "bytes": 634
+  },
+  {
+    "name": "helm_capabilities_historical_summarize.py",
+    "url": "https://raw.githubusercontent.com/stanford-crfm/helm/c455152dec057b3421d4f2f0527b916d6965f913/src/helm/benchmark/presentation/summarize.py",
+    "sha256": "9b7452c3aa205056ac75e67cc52521e30295fa7633562de242ff8aaebc2d0c53",
+    "bytes": 67828
+  },
+  {
+    "name": "helm_capabilities_index.html",
+    "url": "https://crfm.stanford.edu/helm/capabilities/v1.15.0/",
+    "sha256": "7b5ae08a8aad37b4ba0fe04ccb68d68a62d23695ec874aff3e81833acca8cca0",
+    "bytes": 1295
+  },
+  {
+    "name": "helm_capabilities_summary.json",
+    "url": "https://storage.googleapis.com/crfm-helm-public/capabilities/benchmark_output/releases/v1.15.0/summary.json",
+    "sha256": "0819e1f523039dd2cfb231bdb6daf8e252ecc2aa04bdd18798b0c313d6b8728f",
+    "bytes": 298
+  },
+  {
+    "name": "helm_lite_config.js",
+    "url": "https://crfm.stanford.edu/helm/lite/v1.13.0/config.js",
+    "sha256": "2f6a2a4731df7220b54bd2d351a0e0f71f7908f57237d23cbc9f5e18071d7538",
+    "bytes": 165
+  },
+  {
+    "name": "helm_lite_core_scenarios.json",
+    "url": "https://storage.googleapis.com/crfm-helm-public/lite/benchmark_output/releases/v1.13.0/groups/core_scenarios.json",
+    "sha256": "4ad809bc2138e22252e0c8b2501981ee2661b34be7bee9b66b209ab86264bcab",
+    "bytes": 3177587
+  },
+  {
+    "name": "helm_lite_historical_RowValue.tsx",
+    "url": "https://raw.githubusercontent.com/stanford-crfm/helm/12ab30bc79e44881597e2486e38c96b5b5931ef6/helm-frontend/src/components/RowValue.tsx",
+    "sha256": "66f3302c2a59c848b0f823fe0503d4581691f171124fd659c37614fe18bb2ca5",
+    "bytes": 2430
+  },
+  {
+    "name": "helm_lite_historical_commit.json",
+    "url": "https://api.github.com/repos/stanford-crfm/helm/commits?until=2025-01-11T00%3A00%3A00Z&per_page=1",
+    "sha256": "46af6fe77f3e5f05a6d001a3ca55b9afa5300279d74d7306b5a1d5503f244c19",
+    "bytes": 4315
+  },
+  {
+    "name": "helm_lite_historical_getGroupTablesByName.ts",
+    "url": "https://raw.githubusercontent.com/stanford-crfm/helm/12ab30bc79e44881597e2486e38c96b5b5931ef6/helm-frontend/src/services/getGroupTablesByName.ts",
+    "sha256": "e77e54e490d10a571d88294c1749c43b8d4d248b36ad8b3596c8d78d4f0920c6",
+    "bytes": 634
+  },
+  {
+    "name": "helm_lite_historical_summarize.py",
+    "url": "https://raw.githubusercontent.com/stanford-crfm/helm/12ab30bc79e44881597e2486e38c96b5b5931ef6/src/helm/benchmark/presentation/summarize.py",
+    "sha256": "7f4841deb7ea3a346dc9e87f4dc7e8321b41005cf7ff242d4a308408421d50aa",
+    "bytes": 59355
+  },
+  {
+    "name": "helm_lite_index.html",
+    "url": "https://crfm.stanford.edu/helm/lite/v1.13.0/",
+    "sha256": "7b5ae08a8aad37b4ba0fe04ccb68d68a62d23695ec874aff3e81833acca8cca0",
+    "bytes": 1295
+  },
+  {
+    "name": "helm_lite_summary.json",
+    "url": "https://storage.googleapis.com/crfm-helm-public/lite/benchmark_output/releases/v1.13.0/summary.json",
+    "sha256": "d4eb487e79bcdd7329bdcb10f5116364c2501842fe5e58da6e0bd717f90ee71e",
+    "bytes": 268
+  },
+  {
+    "name": "openllm_archived_display_utils.py",
+    "url": "https://huggingface.co/spaces/open-llm-leaderboard-old/open_llm_leaderboard/raw/2d123810073b3b12242ff98f65cf869dbbee90bc/src/display/utils.py",
+    "sha256": "30a3849cee0b8ab01915ac4b43d83ffc5e43f233467d78be4a0369e33e9108bf",
+    "bytes": 9103
+  },
+  {
+    "name": "openllm_archived_populate.py",
+    "url": "https://huggingface.co/spaces/open-llm-leaderboard-old/open_llm_leaderboard/raw/2d123810073b3b12242ff98f65cf869dbbee90bc/src/populate.py",
+    "sha256": "d775de6a2f1e023a2ccde70f2765de703ef9db522570381c184e5246b6f9dbb1",
+    "bytes": 2170
+  },
+  {
+    "name": "openllm_history.json",
+    "url": "https://huggingface.co/api/spaces/open-llm-leaderboard-old/open_llm_leaderboard/commits/main",
+    "sha256": "b73679d454d4b77d348cba084d6693c23e04075c7a631e74f51d0059d45a9dc6",
+    "bytes": 18633
+  },
+  {
+    "name": "openllm_truthfulqa_official.py",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b281b0921b636bc36ad05c0b0b0763bd6dd43463/lm_eval/tasks/truthfulqa.py",
+    "sha256": "77d471b0f567897f2e69eeed65b11deab83dcf8b55d24b2ab4c39b035f06094b",
+    "bytes": 15273
+  }
+]

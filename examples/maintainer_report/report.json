@@ -1,0 +1,73 @@
+{
+  "name": "Synthetic two-task example",
+  "scope": "One reproducible synthetic trial demonstrating the adapter and report. It is not evidence about a real benchmark or an estimate of a false-winner rate.",
+  "feedback": "Category feedback: 2 score(s) per submission at 0.001 pp precision. Endpoint selection and all submissions see this same surface. Category means and the aggregate preserve equal-category weighting. No separate overall score is supplied.",
+  "coverage": {
+    "Genuine models": 3,
+    "Reused items": 40,
+    "Held-out items": 40,
+    "Tasks / categories": 2,
+    "Per task": "20 reused + 20 held out",
+    "Missing scores": 0,
+    "Duplicate prompts crossing split": 0
+  },
+  "endpoints": [
+    "model_a",
+    "model_b"
+  ],
+  "endpoint_rule": "Choose the most different pair among the top five genuine models by the allowed public score, using equal-category-weighted absolute differences and lexical ties.",
+  "budget": 8,
+  "no_attack": {
+    "reused_score_pp": 57.49999999999999,
+    "heldout_score_pp": 45.0,
+    "heldout_regret_pp": 14.999999999999996,
+    "rank_t": 3,
+    "rank_s": 1,
+    "false_winner": true
+  },
+  "no_attack_model": "model_b",
+  "attack": {
+    "benchmark": "custom",
+    "policy": "top5",
+    "trial": 0,
+    "method": "random_task_linear",
+    "new_submissions": 8,
+    "original_count_equivalent": 10,
+    "score_gap_pp": 12.500000000000005,
+    "genuine_preload_score_gap_pp": 12.500000000000005,
+    "first_s": true,
+    "first_t": false,
+    "first_s_not_t": true,
+    "rank_s": 1,
+    "rank_t": 3,
+    "heldout_regret_pp": 9.999999999999998,
+    "ranking_regret_pp": 9.999999999999998,
+    "reused_score_pp": 72.5,
+    "heldout_score_pp": 50.0,
+    "false_winner": true
+  },
+  "selection": {
+    "model": "Final router",
+    "heldout_score_pp": 50.0,
+    "model_selection_loss_pp": -5.0
+  },
+  "utility": "No population distinguishability estimate from a single trial; use the paired study for that measure.",
+  "notes": [
+    "The evaluator averages the two tasks equally. Random binary outcomes come from fixed synthetic abilities and seed 7.",
+    "One split and one attack cannot establish a safe feedback policy. Task and category feedback coincide here because each category has one task."
+  ],
+  "reproduction": {
+    "command": "python -m scripts.maintainer_report --adapter examples.custom_benchmark.run:SyntheticBenchmark --policy category --budget 8 --routing-seed maintainer-v1 --tie-seed maintainer-ties-v1 --output runs/maintainer-rerun",
+    "adapter": "examples.custom_benchmark.run:SyntheticBenchmark",
+    "policy": "category",
+    "routing_seed": "maintainer-v1",
+    "tie_seed": "maintainer-ties-v1",
+    "submissions": "8 attack; 0 no-attack submissions; genuine profiles free",
+    "python": "3.9.7",
+    "numpy": "1.26.4",
+    "adapter_sha256": "213bd55a5f35c4823f556a831ac17f516c1c8184cc2cce39002f6d3d369e3749",
+    "data": "Generated locally; no downloads or model calls",
+    "data_seed": 7,
+    "split": "First 20 of 40 examples per task reused; remainder held out"
+  }
+}

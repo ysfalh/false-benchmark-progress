@@ -1,0 +1,11 @@
+{
+  "python": "3.9.7 (v3.9.7:1016ef3790, Aug 30 2021, 16:39:15) \n[Clang 6.0 (clang-600.0.57)]",
+  "platform": "macOS-26.6.2-x86_64-i386-64bit",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "21.0.0",
+  "parallel_workers": 4,
+  "OPENBLAS_NUM_THREADS": "1",
+  "run_command": "python -m scripts.feedback_policy_study run --workers 4",
+  "freeze_command": "python -m scripts.feedback_policy_study freeze"
+}

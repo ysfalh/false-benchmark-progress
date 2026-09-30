@@ -1,0 +1,12 @@
+{
+  "eligibility.csv": "081d87a8c7f7d4cfc0abbceb3357bd19d9ca5ede3968a0f26cb36c9b0eb90740",
+  "evaluation.npz": "abf2043e3a63b3eb3bff013cb1b3966ff1e775d837e3bde543b1daeb3e09296e",
+  "inputs.json": "bc3725b3b7c620371166efa13b1387757099db150a531259a562c63c825e8af5",
+  "protocol.json": "dde1673fc7a79db81ecb54635895d9168ffc3103d19a8ca0c6fba673263ce704",
+  "provenance.json": "841b95f8844d0c7ef4144413f362810ec4d43026f54600e8ec91853fe72ad2bf",
+  "routers.jsonl.gz": "3768c1097ea4807877ef1b2ac451649dbe5c38b2c82892827f18be7dea7020f7",
+  "summary.csv": "482ff61d40aecbd610b9b1b1e569308830e54bc0075afc68dd11d3f57bda7203",
+  "trials.csv": "b0a3a723ae05b92969b53f81938b0fe50862eb906ac8cd4e00ccac62ffd53ff3",
+  "verification.json": "087d6acfbf23ca625afd579cb2e1ed5185336cd948156f8b7fab8c286054d1f2",
+  "../../../configs/terminal_science.json": "447ae131d63e7b9239ee8fa13a94f177338c5e2f22b3951b9cdb7a0e49c644b9"
+}

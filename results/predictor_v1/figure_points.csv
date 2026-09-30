@@ -1,0 +1,45 @@
+panel,source,n,d,observed_k,predicted_k
+score_gap_plus2,LiveBench fit cell,30,1,16.0,14.192185438155828
+score_gap_plus2,LiveBench fit cell,30,2,8.0,7.596092719077914
+score_gap_plus2,LiveBench fit cell,30,3,4.0,5.3973951460519425
+score_gap_plus2,LiveBench fit cell,30,6,4.0,3.1986975730259712
+score_gap_plus2,LiveBench fit cell,66,1,32.0,30.02280796394282
+score_gap_plus2,LiveBench fit cell,66,2,16.0,15.51140398197141
+score_gap_plus2,LiveBench fit cell,66,3,16.0,10.674269321314274
+score_gap_plus2,LiveBench fit cell,66,6,8.0,5.837134660657137
+score_gap_plus2,LiveBench fit cell,66,9,4.0,4.224756440438091
+score_gap_plus2,LiveBench fit cell,126,1,64.0,56.40717884025448
+score_gap_plus2,LiveBench fit cell,126,2,32.0,28.70358942012724
+score_gap_plus2,LiveBench fit cell,126,3,16.0,19.46905961341816
+score_gap_plus2,LiveBench fit cell,126,6,8.0,10.23452980670908
+score_gap_plus2,LiveBench fit cell,126,9,8.0,7.15635320447272
+score_gap_plus2,LiveBench fit cell,204,1,64.0,90.70686097945963
+score_gap_plus2,LiveBench fit cell,204,2,64.0,45.85343048972982
+score_gap_plus2,LiveBench fit cell,204,3,32.0,30.90228699315321
+score_gap_plus2,LiveBench fit cell,204,6,16.0,15.951143496576606
+score_gap_plus2,LiveBench fit cell,204,9,8.0,10.967428997717738
+score_gap_plus2,LiveBench fit cell,204,18,4.0,5.983714498858869
+score_gap_plus2,HELM Capabilities,1064,5,128.0,94.57656870798534
+score_gap_plus2,HELM Lite,2721,10,256.0,120.65312192407336
+score_gap_plus2,Open LLM,1278,7,32.0,81.2838713807769
+false90,LiveBench fit cell,66,1,64.0,59.779370191787386
+false90,LiveBench fit cell,66,2,32.0,30.389685095893693
+false90,LiveBench fit cell,66,3,32.0,20.593123397262463
+false90,LiveBench fit cell,66,6,16.0,10.796561698631232
+false90,LiveBench fit cell,66,9,8.0,7.531041132420821
+false90,LiveBench fit cell,66,18,4.0,4.2655205662104105
+false90,LiveBench fit cell,126,1,64.0,59.779370191787386
+false90,LiveBench fit cell,126,2,32.0,30.389685095893693
+false90,LiveBench fit cell,126,3,16.0,20.593123397262463
+false90,LiveBench fit cell,126,6,8.0,10.796561698631232
+false90,LiveBench fit cell,126,9,8.0,7.531041132420821
+false90,LiveBench fit cell,126,18,4.0,4.2655205662104105
+false90,LiveBench fit cell,204,1,64.0,59.779370191787386
+false90,LiveBench fit cell,204,2,32.0,30.389685095893693
+false90,LiveBench fit cell,204,3,16.0,20.593123397262463
+false90,LiveBench fit cell,204,6,8.0,10.796561698631232
+false90,LiveBench fit cell,204,9,8.0,7.531041132420821
+false90,LiveBench fit cell,204,18,4.0,4.2655205662104105
+false90,HELM Capabilities,1064,5,16.0,12.755874038357478
+false90,HELM Lite,2721,10,64.0,6.877937019178739
+false90,Open LLM,1278,7,32.0,9.397052884541056

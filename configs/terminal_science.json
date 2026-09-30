@@ -1,0 +1,51 @@
+{
+  "benchmark": "terminal_science",
+  "models": [
+    "DeepSeek V4 Pro / Codex / max / 00b5eabf-caca-435c-b8a8-458633192aa8",
+    "DeepSeek V4.1 Flash / Codex / max / 58d4c48d-791b-4873-ba3e-af1cf997a79c",
+    "Fable 5 / Claude Code / max / e3f2861a-97db-4730-a0ff-99f08d8c7299",
+    "Fable 5.1 / Claude Code / max / 1264a994-632f-4742-a143-a848a6ad4114",
+    "GLM 5.3 / Claude Code / max / 78f18248-3ee9-4eb4-b7af-19019f1fc64f",
+    "GPT-5.6 Luna / Codex / max / 7cf10b06-3e5b-4723-b98f-c679e773959b",
+    "GPT-5.6 Sol / Codex / max / 378f8b49-dbd8-4acf-a065-8c07e1712de2",
+    "GPT-5.6 Terra / Codex / max / c79d5ef6-b3c6-40da-84b5-946c11099426",
+    "GPT-6 Astra / Codex / max / 76867ebc-8f35-43c5-a8b0-0cee9db46c96",
+    "Gemini 3.7 Flash / mini-SWE-agent / high / 5a71d088-1bfd-4bbe-a65a-973a4fffd50f",
+    "Gemini 3.8 Flash / mini-SWE-agent / high / 409f68a6-d6a4-43c9-adb8-63679dc17a45",
+    "Grok 4.6 / Grok Build / xhigh / 231bc6c3-8f2b-455e-8c87-5a08ec200b05",
+    "Grok 4.7 / Grok Build / xhigh / 360317df-baea-4ead-8a11-09db70a27d15",
+    "Kimi K3 / Claude Code / max / 66e64f64-abbd-40a6-a470-2151df25472e",
+    "Opus 4.8 / Claude Code / max / e8bf7739-3c94-46a3-95a5-fa4d4444034e",
+    "Opus 5 / Claude Code / max / bcf50bd8-8555-48a6-8cae-9f697af54051",
+    "Opus 5.5 / Claude Code / max / cb24f3a2-82ab-4f97-be88-92a28118bf1c"
+  ],
+  "categories": [
+    "earth",
+    "engineering",
+    "life",
+    "mathematical",
+    "physical"
+  ],
+  "repeats": 3,
+  "holdout_fraction": 0.6666666666666666,
+  "split_seed_base": 202609230000,
+  "routing_seed": "science-bank0-20260923",
+  "tie_seed": "science-ties0-20260923",
+  "trials": 250,
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "name": "Terminal-Bench-Science",
+  "version": "0.1"
+}

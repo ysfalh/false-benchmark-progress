@@ -1,0 +1,20 @@
+[
+  {
+    "file": "texgyrepagella-regular.woff",
+    "original_file": "texgyrepagella-regular.otf",
+    "original_sha256": "44e64260716d8f2bbe412baa1ee99b7c995190ac4573177c24def0b9200438c7",
+    "woff_sha256": "db7aaf671c71eea27f562d641700994c6c83195dc0786d5fc1332ba85ef97e69"
+  },
+  {
+    "file": "texgyrepagella-bold.woff",
+    "original_file": "texgyrepagella-bold.otf",
+    "original_sha256": "dd4f9b69f0b24f1fb9be8634abf1fce2009e5c68a30842a3e9f5d6e535900abd",
+    "woff_sha256": "b625fd0899958a7c5ac52c3c50d84a982c24c0521fc2b9d095367ec748072aa2"
+  },
+  {
+    "file": "texgyrepagella-italic.woff",
+    "original_file": "texgyrepagella-italic.otf",
+    "original_sha256": "069bb27f48eb98a741715227fc6e4b7baf3639c29fc13925f70d1ed8884ac29a",
+    "woff_sha256": "c36ef033dbb25dc47ab3f2a8f757b99411a2fde51103bc6e62003e00ce98e8ae"
+  }
+]

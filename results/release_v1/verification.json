@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "outcomes_verified": 24000,
+  "public_choices_verified": 2000,
+  "summary_rows_verified": 96,
+  "unit_tests_passed": 13,
+  "metric_tolerance_pp": 1e-10,
+  "checks": [
+    "Input and release checksums",
+    "Independent public-only endpoint selection",
+    "Independent score, rank, and regret recomputation",
+    "Complete paired-trial bootstrap summaries",
+    "Headline and threshold agreement",
+    "Secondary diagnostic trial events and displayed values"
+  ],
+  "secondary_outcomes_checked": 5750,
+  "installation": "Editable install from pyproject.toml in a clean Python 3.9 virtual environment",
+  "full_reproductions": [
+    {
+      "benchmark": "livebench",
+      "trials": 250,
+      "outcomes": 6000,
+      "max_metric_difference_pp": 3.375077994860476e-14,
+      "public_profiles": "exact match",
+      "ranks_and_events": "exact match"
+    },
+    {
+      "benchmark": "helm_capabilities",
+      "trials": 250,
+      "outcomes": 6000,
+      "max_metric_difference_pp": 0.0,
+      "public_profiles": "exact match",
+      "ranks_and_events": "exact match"
+    },
+    {
+      "benchmark": "helm_lite",
+      "trials": 250,
+      "outcomes": 6000,
+      "max_metric_difference_pp": 0.0,
+      "public_profiles": "exact match",
+      "ranks_and_events": "exact match"
+    },
+    {
+      "benchmark": "openllm",
+      "trials": 250,
+      "outcomes": 6000,
+      "max_metric_difference_pp": 0.0,
+      "public_profiles": "exact match",
+      "ranks_and_events": "exact match"
+    }
+  ],
+  "code_sha256": {
+    "benchmark_progress/__init__.py": "3a07dd5cc5be6ce1fe117a3f230f4ad67c5439a921ef81d201c27124f1e8898e",
+    "benchmark_progress/attacks.py": "b62017cc7414a0eb245a95400f9f30f9120665fd4fc2acfe70231b99e0245e63",
+    "benchmark_progress/benchmarks.py": "1aa86f6e5b1957525b3e223c01fbe8d0752f8988d3be1e2d095cf8fd1ec23c96",
+    "benchmark_progress/evaluation.py": "76eb0007344d48a29beb8cf8d11c5020c5952de538c131e451d39cce0930eec5",
+    "benchmark_progress/reporting.py": "0202a34cafbbd3c9eb6a53636275e136b70504d315331f36e2e0d19580943559",
+    "benchmark_progress/routers.py": "ecddeadc46f22119a503a22ad8ae45ba54441984a2c8a07c2b7b3c672896f2dc",
+    "benchmark_progress/splits.py": "cdcd08ff386c6780398d33d48fcf40a20b146f0c74dced8697e655fcca5c9a4c",
+    "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/report.py": "c411abdde97fe610198924acc0be230504d9d2bf6bcb85c3dda47f27bfb97e65",
+    "scripts/reproduce.py": "db8a655a63bff63409b1215f712c4edccfeab7a02c93eb975d88e81739758704",
+    "scripts/verify.py": "a0551aa225703f87ab569e20ea0488a723ae4181da579ced096e57ff87461f6e"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "external_validation.csv": "7d565ff1a70f1e1d18a8ce3e9c88927969b7e78f5c0c5300b6ee7086e7e5f354",
+    "figure_points.csv": "e25950457635b505b3dc032353eb2f99ccc8c546913bba605116abdda8542b84",
+    "livebench_curves.csv": "c38731198feb1eedbf962fa99fd924deb09cb29a644dcc0ad537d3bfde32dcff",
+    "livebench_thresholds.csv": "b7646ceb341bb15138b9753f860200b8db07c2c754ff6e1480928e6e5b89b12a",
+    "models.json": "b39274eb8d638991f6db3657b8410ce6db3992b9e0219b13748c23875f38d2a2",
+    "predictive_errors.csv": "ecb34c2e2b19e931c8b0367f96de6f86a6a43373ca92ac9ba975a7f58e6975b4",
+    "threshold_alignment.csv": "d7d1c4d3b480073343dbf4325a6605902e00f62913132748b8a48bb1e63744fa"
+  }
+}

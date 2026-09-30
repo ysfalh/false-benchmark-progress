@@ -1,0 +1,29 @@
+{
+  "metric": "Held-out score of the no-attack public choice minus the post-attack public choice; signed mean over eligible paired trials (250 per snapshot, 212 for Terminal-Bench-Science). Budget zero describes all 250 original choices; budget one is static routing.",
+  "selection": "Public winner among genuine models before attack; genuine models plus final router after attack. Ties at ten-decimal loss precision favor genuine models, then lexical order.",
+  "ranks": "Post-attack choice rank minus no-attack choice rank, both held out against the same genuine models plus final router. Competition ties share rank. Pool sizes differ across benchmarks.",
+  "intervals": "2,000 paired bootstrap resamples, seed 2026081900; pointwise descriptive 95% percentile intervals.",
+  "score_gap": "Maximum absolute gap between separate running-best histories, averaged across eligible trials.",
+  "sources_sha256": {
+    "results/release_v2/livebench/evaluation.npz": "5dd3c566231b91ba6bb6be07fc6ab51ad8fbb3767a7494465a8daec657439863",
+    "results/release_v2/livebench/public_profiles.npz": "06b4e02f8d95fbaa5e7a1cb623a2d73ac1d58d49435514743554c1defb54b756",
+    "results/release_v2/helm_capabilities/evaluation.npz": "e0ff8572769b3143f49f124f2f41f05d7693fdca6e5c441569ef533edccaf2b5",
+    "results/release_v2/helm_capabilities/public_profiles.npz": "7763d141db5cdd8cd72dd8534d8aaf3a086f59b9cc8c0fce3b600130b9b92f7d",
+    "results/release_v2/helm_lite/evaluation.npz": "07d5703762869968fa0500efb33a999ae31c6bef0335e06c68779eb2af309a55",
+    "results/release_v2/helm_lite/public_profiles.npz": "48cd69f4a0c56e4b21c85096844e2e3b712626dd2e639517b9dca451789c7ce3",
+    "results/release_v2/openllm_v2/evaluation.npz": "b89e81a092af92b0f4f2c32aa5d085321efdebefeb1c64c4f5869e6640e975a3",
+    "results/release_v2/openllm_v2/public_profiles.npz": "7ee18a73e53b1340cf5ab811f6b5f4f01c59c076e4ff1447a2cf1fc5f7488816",
+    "results/release_v2/swe_verified/evaluation.npz": "0da218fc393ecf25974ebe8864038b9a58c40b5829f2dd421a180bec835e29f9",
+    "results/release_v2/swe_verified/public_profiles.npz": "673ae31a02799a78db8a4fcd54995ca84a8baade13827a2017de785312772611",
+    "results/release_v2/budget_curves.csv": "f00414a81e8201477287a3dcc9f821f2e1fa021d61a334158e8eb8fe667b505e",
+    "results/release_v2/trials.parquet": "7b6a23033c9ea93455784828a69e4b79bac70eb37aceee752fb779b5eaea787a",
+    "results/no_attack_v1/trials.csv": "49e49bbe8cab69c0cf6c9c85f539de0364cc49d14e4cb9bc5afb215401d318bc",
+    "scripts/selection_loss.py": "9d03b3b562eec48ee7ef642b5562bd9bdaf7d204235b98718cada873ad5516e3",
+    "scripts/no_attack.py": "59d922b8732206598cc0546d16ed6874ffb54b6bd9957cb90770295f962f4447",
+    "scripts/helm_walkthrough.py": "1ae6a695395b0fd8e40cd00db960409e5d2060922308889da7d89410f476aea8",
+    "scripts/outcome_bank.py": "0a72249b8bc5689c28853967c0bee6262ada3a3d623e31c88d6cd072223b54c5",
+    "results/outcome_banks/terminal_science/trials.csv": "b0a3a723ae05b92969b53f81938b0fe50862eb906ac8cd4e00ccac62ffd53ff3",
+    "results/outcome_banks/terminal_science/evaluation.npz": "abf2043e3a63b3eb3bff013cb1b3966ff1e775d837e3bde543b1daeb3e09296e",
+    "site/selection.py": "3567fd5939630ad6090095c8b8b39ebdbbb71b64b8afa5617641ae5eecbb561c"
+  }
+}

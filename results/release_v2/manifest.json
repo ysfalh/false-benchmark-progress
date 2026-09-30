@@ -1,0 +1,43 @@
+{
+  "release": "release_v2",
+  "benchmarks": [
+    "livebench",
+    "helm_capabilities",
+    "helm_lite",
+    "openllm_v2",
+    "swe_verified"
+  ],
+  "policies": [
+    "top5",
+    "full_frontier"
+  ],
+  "trials": 250,
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "headline_budget": 2048,
+  "bootstrap": {
+    "seed": 2026081900,
+    "resamples": 2000,
+    "confidence": 0.95
+  },
+  "primary_method": "random_task_linear",
+  "control": "task_router",
+  "units": "Scores and regrets in percentage points; rates in [0,1].",
+  "evaluation_records": "Running-best loss histories plus genuine and final category profiles. Candidate models are excluded from final ranks. These sufficient records retain every metric while omitting redundant per-candidate task dumps.",
+  "derivation": "Original three unchanged benchmark runs plus the frozen Open LLM v2 and SWE-bench Verified runs, using the original one-third reused split. Per-run protocol code hashes record original execution, not the subsequently trimmed website source tree. Current inputs and result files are covered by release checksums.",
+  "feedback_note": "SWE-bench Verified uses ten repository aggregates reconstructed from public item resolutions; these are a modeled feedback surface, not a claim that its leaderboard publishes ten scalar columns.",
+  "score_gap_summary": "Arithmetic mean across paired trials.",
+  "summary_revision": "2026-09-23: score-gap means and intervals regenerated from unchanged trial records."
+}

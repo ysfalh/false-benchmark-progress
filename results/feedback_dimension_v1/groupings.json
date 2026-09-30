@@ -1,0 +1,1424 @@
+[
+  {
+    "partition": 0,
+    "dimension": 1,
+    "condition": "d01_p0",
+    "computed_condition": "d01_p0",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "language/typos",
+      "math/AMPS_Hard",
+      "reasoning/zebra_puzzle",
+      "data_analysis/tablereformat",
+      "math/math_comp",
+      "data_analysis/cta",
+      "coding/coding_completion",
+      "instruction_following/paraphrase",
+      "instruction_following/story_generation",
+      "math/olympiad",
+      "instruction_following/simplify",
+      "coding/LCB_generation",
+      "data_analysis/tablejoin",
+      "reasoning/web_of_lies_v2",
+      "language/connections"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize",
+        "reasoning/spatial",
+        "language/typos",
+        "math/AMPS_Hard",
+        "reasoning/zebra_puzzle",
+        "data_analysis/tablereformat",
+        "math/math_comp",
+        "data_analysis/cta",
+        "coding/coding_completion",
+        "instruction_following/paraphrase",
+        "instruction_following/story_generation",
+        "math/olympiad",
+        "instruction_following/simplify",
+        "coding/LCB_generation",
+        "data_analysis/tablejoin",
+        "reasoning/web_of_lies_v2",
+        "language/connections"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 0,
+      "language/typos": 0,
+      "math/AMPS_Hard": 0,
+      "reasoning/zebra_puzzle": 0,
+      "data_analysis/tablereformat": 0,
+      "math/math_comp": 0,
+      "data_analysis/cta": 0,
+      "coding/coding_completion": 0,
+      "instruction_following/paraphrase": 0,
+      "instruction_following/story_generation": 0,
+      "math/olympiad": 0,
+      "instruction_following/simplify": 0,
+      "coding/LCB_generation": 0,
+      "data_analysis/tablejoin": 0,
+      "reasoning/web_of_lies_v2": 0,
+      "language/connections": 0
+    }
+  },
+  {
+    "partition": 0,
+    "dimension": 2,
+    "condition": "d02_p0",
+    "computed_condition": "d02_p0",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "language/typos",
+      "math/AMPS_Hard",
+      "reasoning/zebra_puzzle",
+      "data_analysis/tablereformat",
+      "math/math_comp",
+      "data_analysis/cta",
+      "coding/coding_completion",
+      "instruction_following/paraphrase",
+      "instruction_following/story_generation",
+      "math/olympiad",
+      "instruction_following/simplify",
+      "coding/LCB_generation",
+      "data_analysis/tablejoin",
+      "reasoning/web_of_lies_v2",
+      "language/connections"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize",
+        "reasoning/spatial",
+        "language/typos",
+        "math/AMPS_Hard",
+        "reasoning/zebra_puzzle",
+        "data_analysis/tablereformat",
+        "math/math_comp",
+        "data_analysis/cta"
+      ],
+      [
+        "coding/coding_completion",
+        "instruction_following/paraphrase",
+        "instruction_following/story_generation",
+        "math/olympiad",
+        "instruction_following/simplify",
+        "coding/LCB_generation",
+        "data_analysis/tablejoin",
+        "reasoning/web_of_lies_v2",
+        "language/connections"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 0,
+      "language/typos": 0,
+      "math/AMPS_Hard": 0,
+      "reasoning/zebra_puzzle": 0,
+      "data_analysis/tablereformat": 0,
+      "math/math_comp": 0,
+      "data_analysis/cta": 0,
+      "coding/coding_completion": 1,
+      "instruction_following/paraphrase": 1,
+      "instruction_following/story_generation": 1,
+      "math/olympiad": 1,
+      "instruction_following/simplify": 1,
+      "coding/LCB_generation": 1,
+      "data_analysis/tablejoin": 1,
+      "reasoning/web_of_lies_v2": 1,
+      "language/connections": 1
+    }
+  },
+  {
+    "partition": 0,
+    "dimension": 3,
+    "condition": "d03_p0",
+    "computed_condition": "d03_p0",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "language/typos",
+      "math/AMPS_Hard",
+      "reasoning/zebra_puzzle",
+      "data_analysis/tablereformat",
+      "math/math_comp",
+      "data_analysis/cta",
+      "coding/coding_completion",
+      "instruction_following/paraphrase",
+      "instruction_following/story_generation",
+      "math/olympiad",
+      "instruction_following/simplify",
+      "coding/LCB_generation",
+      "data_analysis/tablejoin",
+      "reasoning/web_of_lies_v2",
+      "language/connections"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize",
+        "reasoning/spatial",
+        "language/typos",
+        "math/AMPS_Hard",
+        "reasoning/zebra_puzzle"
+      ],
+      [
+        "data_analysis/tablereformat",
+        "math/math_comp",
+        "data_analysis/cta",
+        "coding/coding_completion",
+        "instruction_following/paraphrase",
+        "instruction_following/story_generation"
+      ],
+      [
+        "math/olympiad",
+        "instruction_following/simplify",
+        "coding/LCB_generation",
+        "data_analysis/tablejoin",
+        "reasoning/web_of_lies_v2",
+        "language/connections"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 0,
+      "language/typos": 0,
+      "math/AMPS_Hard": 0,
+      "reasoning/zebra_puzzle": 0,
+      "data_analysis/tablereformat": 1,
+      "math/math_comp": 1,
+      "data_analysis/cta": 1,
+      "coding/coding_completion": 1,
+      "instruction_following/paraphrase": 1,
+      "instruction_following/story_generation": 1,
+      "math/olympiad": 2,
+      "instruction_following/simplify": 2,
+      "coding/LCB_generation": 2,
+      "data_analysis/tablejoin": 2,
+      "reasoning/web_of_lies_v2": 2,
+      "language/connections": 2
+    }
+  },
+  {
+    "partition": 0,
+    "dimension": 6,
+    "condition": "d06_p0",
+    "computed_condition": "d06_p0",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "language/typos",
+      "math/AMPS_Hard",
+      "reasoning/zebra_puzzle",
+      "data_analysis/tablereformat",
+      "math/math_comp",
+      "data_analysis/cta",
+      "coding/coding_completion",
+      "instruction_following/paraphrase",
+      "instruction_following/story_generation",
+      "math/olympiad",
+      "instruction_following/simplify",
+      "coding/LCB_generation",
+      "data_analysis/tablejoin",
+      "reasoning/web_of_lies_v2",
+      "language/connections"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize",
+        "reasoning/spatial"
+      ],
+      [
+        "language/typos",
+        "math/AMPS_Hard",
+        "reasoning/zebra_puzzle"
+      ],
+      [
+        "data_analysis/tablereformat",
+        "math/math_comp",
+        "data_analysis/cta"
+      ],
+      [
+        "coding/coding_completion",
+        "instruction_following/paraphrase",
+        "instruction_following/story_generation"
+      ],
+      [
+        "math/olympiad",
+        "instruction_following/simplify",
+        "coding/LCB_generation"
+      ],
+      [
+        "data_analysis/tablejoin",
+        "reasoning/web_of_lies_v2",
+        "language/connections"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 0,
+      "language/typos": 1,
+      "math/AMPS_Hard": 1,
+      "reasoning/zebra_puzzle": 1,
+      "data_analysis/tablereformat": 2,
+      "math/math_comp": 2,
+      "data_analysis/cta": 2,
+      "coding/coding_completion": 3,
+      "instruction_following/paraphrase": 3,
+      "instruction_following/story_generation": 3,
+      "math/olympiad": 4,
+      "instruction_following/simplify": 4,
+      "coding/LCB_generation": 4,
+      "data_analysis/tablejoin": 5,
+      "reasoning/web_of_lies_v2": 5,
+      "language/connections": 5
+    }
+  },
+  {
+    "partition": 0,
+    "dimension": 9,
+    "condition": "d09_p0",
+    "computed_condition": "d09_p0",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "language/typos",
+      "math/AMPS_Hard",
+      "reasoning/zebra_puzzle",
+      "data_analysis/tablereformat",
+      "math/math_comp",
+      "data_analysis/cta",
+      "coding/coding_completion",
+      "instruction_following/paraphrase",
+      "instruction_following/story_generation",
+      "math/olympiad",
+      "instruction_following/simplify",
+      "coding/LCB_generation",
+      "data_analysis/tablejoin",
+      "reasoning/web_of_lies_v2",
+      "language/connections"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize"
+      ],
+      [
+        "reasoning/spatial",
+        "language/typos"
+      ],
+      [
+        "math/AMPS_Hard",
+        "reasoning/zebra_puzzle"
+      ],
+      [
+        "data_analysis/tablereformat",
+        "math/math_comp"
+      ],
+      [
+        "data_analysis/cta",
+        "coding/coding_completion"
+      ],
+      [
+        "instruction_following/paraphrase",
+        "instruction_following/story_generation"
+      ],
+      [
+        "math/olympiad",
+        "instruction_following/simplify"
+      ],
+      [
+        "coding/LCB_generation",
+        "data_analysis/tablejoin"
+      ],
+      [
+        "reasoning/web_of_lies_v2",
+        "language/connections"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 1,
+      "language/typos": 1,
+      "math/AMPS_Hard": 2,
+      "reasoning/zebra_puzzle": 2,
+      "data_analysis/tablereformat": 3,
+      "math/math_comp": 3,
+      "data_analysis/cta": 4,
+      "coding/coding_completion": 4,
+      "instruction_following/paraphrase": 5,
+      "instruction_following/story_generation": 5,
+      "math/olympiad": 6,
+      "instruction_following/simplify": 6,
+      "coding/LCB_generation": 7,
+      "data_analysis/tablejoin": 7,
+      "reasoning/web_of_lies_v2": 8,
+      "language/connections": 8
+    }
+  },
+  {
+    "partition": 0,
+    "dimension": 18,
+    "condition": "d18_p0",
+    "computed_condition": "d18_p0",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "language/typos",
+      "math/AMPS_Hard",
+      "reasoning/zebra_puzzle",
+      "data_analysis/tablereformat",
+      "math/math_comp",
+      "data_analysis/cta",
+      "coding/coding_completion",
+      "instruction_following/paraphrase",
+      "instruction_following/story_generation",
+      "math/olympiad",
+      "instruction_following/simplify",
+      "coding/LCB_generation",
+      "data_analysis/tablejoin",
+      "reasoning/web_of_lies_v2",
+      "language/connections"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling"
+      ],
+      [
+        "instruction_following/summarize"
+      ],
+      [
+        "reasoning/spatial"
+      ],
+      [
+        "language/typos"
+      ],
+      [
+        "math/AMPS_Hard"
+      ],
+      [
+        "reasoning/zebra_puzzle"
+      ],
+      [
+        "data_analysis/tablereformat"
+      ],
+      [
+        "math/math_comp"
+      ],
+      [
+        "data_analysis/cta"
+      ],
+      [
+        "coding/coding_completion"
+      ],
+      [
+        "instruction_following/paraphrase"
+      ],
+      [
+        "instruction_following/story_generation"
+      ],
+      [
+        "math/olympiad"
+      ],
+      [
+        "instruction_following/simplify"
+      ],
+      [
+        "coding/LCB_generation"
+      ],
+      [
+        "data_analysis/tablejoin"
+      ],
+      [
+        "reasoning/web_of_lies_v2"
+      ],
+      [
+        "language/connections"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 1,
+      "reasoning/spatial": 2,
+      "language/typos": 3,
+      "math/AMPS_Hard": 4,
+      "reasoning/zebra_puzzle": 5,
+      "data_analysis/tablereformat": 6,
+      "math/math_comp": 7,
+      "data_analysis/cta": 8,
+      "coding/coding_completion": 9,
+      "instruction_following/paraphrase": 10,
+      "instruction_following/story_generation": 11,
+      "math/olympiad": 12,
+      "instruction_following/simplify": 13,
+      "coding/LCB_generation": 14,
+      "data_analysis/tablejoin": 15,
+      "reasoning/web_of_lies_v2": 16,
+      "language/connections": 17
+    }
+  },
+  {
+    "partition": 1,
+    "dimension": 1,
+    "condition": "d01_p1",
+    "computed_condition": "d01_p0",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "reasoning/web_of_lies_v2",
+      "instruction_following/simplify",
+      "math/olympiad",
+      "coding/LCB_generation",
+      "reasoning/zebra_puzzle",
+      "coding/coding_completion",
+      "language/connections",
+      "data_analysis/tablereformat",
+      "math/AMPS_Hard",
+      "language/typos",
+      "data_analysis/cta",
+      "instruction_following/story_generation",
+      "math/math_comp",
+      "data_analysis/tablejoin",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize",
+        "reasoning/spatial",
+        "reasoning/web_of_lies_v2",
+        "instruction_following/simplify",
+        "math/olympiad",
+        "coding/LCB_generation",
+        "reasoning/zebra_puzzle",
+        "coding/coding_completion",
+        "language/connections",
+        "data_analysis/tablereformat",
+        "math/AMPS_Hard",
+        "language/typos",
+        "data_analysis/cta",
+        "instruction_following/story_generation",
+        "math/math_comp",
+        "data_analysis/tablejoin",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 0,
+      "reasoning/web_of_lies_v2": 0,
+      "instruction_following/simplify": 0,
+      "math/olympiad": 0,
+      "coding/LCB_generation": 0,
+      "reasoning/zebra_puzzle": 0,
+      "coding/coding_completion": 0,
+      "language/connections": 0,
+      "data_analysis/tablereformat": 0,
+      "math/AMPS_Hard": 0,
+      "language/typos": 0,
+      "data_analysis/cta": 0,
+      "instruction_following/story_generation": 0,
+      "math/math_comp": 0,
+      "data_analysis/tablejoin": 0,
+      "instruction_following/paraphrase": 0
+    }
+  },
+  {
+    "partition": 1,
+    "dimension": 2,
+    "condition": "d02_p1",
+    "computed_condition": "d02_p1",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "reasoning/web_of_lies_v2",
+      "instruction_following/simplify",
+      "math/olympiad",
+      "coding/LCB_generation",
+      "reasoning/zebra_puzzle",
+      "coding/coding_completion",
+      "language/connections",
+      "data_analysis/tablereformat",
+      "math/AMPS_Hard",
+      "language/typos",
+      "data_analysis/cta",
+      "instruction_following/story_generation",
+      "math/math_comp",
+      "data_analysis/tablejoin",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize",
+        "reasoning/spatial",
+        "reasoning/web_of_lies_v2",
+        "instruction_following/simplify",
+        "math/olympiad",
+        "coding/LCB_generation",
+        "reasoning/zebra_puzzle",
+        "coding/coding_completion"
+      ],
+      [
+        "language/connections",
+        "data_analysis/tablereformat",
+        "math/AMPS_Hard",
+        "language/typos",
+        "data_analysis/cta",
+        "instruction_following/story_generation",
+        "math/math_comp",
+        "data_analysis/tablejoin",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 0,
+      "reasoning/web_of_lies_v2": 0,
+      "instruction_following/simplify": 0,
+      "math/olympiad": 0,
+      "coding/LCB_generation": 0,
+      "reasoning/zebra_puzzle": 0,
+      "coding/coding_completion": 0,
+      "language/connections": 1,
+      "data_analysis/tablereformat": 1,
+      "math/AMPS_Hard": 1,
+      "language/typos": 1,
+      "data_analysis/cta": 1,
+      "instruction_following/story_generation": 1,
+      "math/math_comp": 1,
+      "data_analysis/tablejoin": 1,
+      "instruction_following/paraphrase": 1
+    }
+  },
+  {
+    "partition": 1,
+    "dimension": 3,
+    "condition": "d03_p1",
+    "computed_condition": "d03_p1",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "reasoning/web_of_lies_v2",
+      "instruction_following/simplify",
+      "math/olympiad",
+      "coding/LCB_generation",
+      "reasoning/zebra_puzzle",
+      "coding/coding_completion",
+      "language/connections",
+      "data_analysis/tablereformat",
+      "math/AMPS_Hard",
+      "language/typos",
+      "data_analysis/cta",
+      "instruction_following/story_generation",
+      "math/math_comp",
+      "data_analysis/tablejoin",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize",
+        "reasoning/spatial",
+        "reasoning/web_of_lies_v2",
+        "instruction_following/simplify",
+        "math/olympiad"
+      ],
+      [
+        "coding/LCB_generation",
+        "reasoning/zebra_puzzle",
+        "coding/coding_completion",
+        "language/connections",
+        "data_analysis/tablereformat",
+        "math/AMPS_Hard"
+      ],
+      [
+        "language/typos",
+        "data_analysis/cta",
+        "instruction_following/story_generation",
+        "math/math_comp",
+        "data_analysis/tablejoin",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 0,
+      "reasoning/web_of_lies_v2": 0,
+      "instruction_following/simplify": 0,
+      "math/olympiad": 0,
+      "coding/LCB_generation": 1,
+      "reasoning/zebra_puzzle": 1,
+      "coding/coding_completion": 1,
+      "language/connections": 1,
+      "data_analysis/tablereformat": 1,
+      "math/AMPS_Hard": 1,
+      "language/typos": 2,
+      "data_analysis/cta": 2,
+      "instruction_following/story_generation": 2,
+      "math/math_comp": 2,
+      "data_analysis/tablejoin": 2,
+      "instruction_following/paraphrase": 2
+    }
+  },
+  {
+    "partition": 1,
+    "dimension": 6,
+    "condition": "d06_p1",
+    "computed_condition": "d06_p1",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "reasoning/web_of_lies_v2",
+      "instruction_following/simplify",
+      "math/olympiad",
+      "coding/LCB_generation",
+      "reasoning/zebra_puzzle",
+      "coding/coding_completion",
+      "language/connections",
+      "data_analysis/tablereformat",
+      "math/AMPS_Hard",
+      "language/typos",
+      "data_analysis/cta",
+      "instruction_following/story_generation",
+      "math/math_comp",
+      "data_analysis/tablejoin",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize",
+        "reasoning/spatial"
+      ],
+      [
+        "reasoning/web_of_lies_v2",
+        "instruction_following/simplify",
+        "math/olympiad"
+      ],
+      [
+        "coding/LCB_generation",
+        "reasoning/zebra_puzzle",
+        "coding/coding_completion"
+      ],
+      [
+        "language/connections",
+        "data_analysis/tablereformat",
+        "math/AMPS_Hard"
+      ],
+      [
+        "language/typos",
+        "data_analysis/cta",
+        "instruction_following/story_generation"
+      ],
+      [
+        "math/math_comp",
+        "data_analysis/tablejoin",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 0,
+      "reasoning/web_of_lies_v2": 1,
+      "instruction_following/simplify": 1,
+      "math/olympiad": 1,
+      "coding/LCB_generation": 2,
+      "reasoning/zebra_puzzle": 2,
+      "coding/coding_completion": 2,
+      "language/connections": 3,
+      "data_analysis/tablereformat": 3,
+      "math/AMPS_Hard": 3,
+      "language/typos": 4,
+      "data_analysis/cta": 4,
+      "instruction_following/story_generation": 4,
+      "math/math_comp": 5,
+      "data_analysis/tablejoin": 5,
+      "instruction_following/paraphrase": 5
+    }
+  },
+  {
+    "partition": 1,
+    "dimension": 9,
+    "condition": "d09_p1",
+    "computed_condition": "d09_p1",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "reasoning/web_of_lies_v2",
+      "instruction_following/simplify",
+      "math/olympiad",
+      "coding/LCB_generation",
+      "reasoning/zebra_puzzle",
+      "coding/coding_completion",
+      "language/connections",
+      "data_analysis/tablereformat",
+      "math/AMPS_Hard",
+      "language/typos",
+      "data_analysis/cta",
+      "instruction_following/story_generation",
+      "math/math_comp",
+      "data_analysis/tablejoin",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling",
+        "instruction_following/summarize"
+      ],
+      [
+        "reasoning/spatial",
+        "reasoning/web_of_lies_v2"
+      ],
+      [
+        "instruction_following/simplify",
+        "math/olympiad"
+      ],
+      [
+        "coding/LCB_generation",
+        "reasoning/zebra_puzzle"
+      ],
+      [
+        "coding/coding_completion",
+        "language/connections"
+      ],
+      [
+        "data_analysis/tablereformat",
+        "math/AMPS_Hard"
+      ],
+      [
+        "language/typos",
+        "data_analysis/cta"
+      ],
+      [
+        "instruction_following/story_generation",
+        "math/math_comp"
+      ],
+      [
+        "data_analysis/tablejoin",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 0,
+      "reasoning/spatial": 1,
+      "reasoning/web_of_lies_v2": 1,
+      "instruction_following/simplify": 2,
+      "math/olympiad": 2,
+      "coding/LCB_generation": 3,
+      "reasoning/zebra_puzzle": 3,
+      "coding/coding_completion": 4,
+      "language/connections": 4,
+      "data_analysis/tablereformat": 5,
+      "math/AMPS_Hard": 5,
+      "language/typos": 6,
+      "data_analysis/cta": 6,
+      "instruction_following/story_generation": 7,
+      "math/math_comp": 7,
+      "data_analysis/tablejoin": 8,
+      "instruction_following/paraphrase": 8
+    }
+  },
+  {
+    "partition": 1,
+    "dimension": 18,
+    "condition": "d18_p1",
+    "computed_condition": "d18_p0",
+    "ordered_tasks": [
+      "language/plot_unscrambling",
+      "instruction_following/summarize",
+      "reasoning/spatial",
+      "reasoning/web_of_lies_v2",
+      "instruction_following/simplify",
+      "math/olympiad",
+      "coding/LCB_generation",
+      "reasoning/zebra_puzzle",
+      "coding/coding_completion",
+      "language/connections",
+      "data_analysis/tablereformat",
+      "math/AMPS_Hard",
+      "language/typos",
+      "data_analysis/cta",
+      "instruction_following/story_generation",
+      "math/math_comp",
+      "data_analysis/tablejoin",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "language/plot_unscrambling"
+      ],
+      [
+        "instruction_following/summarize"
+      ],
+      [
+        "reasoning/spatial"
+      ],
+      [
+        "reasoning/web_of_lies_v2"
+      ],
+      [
+        "instruction_following/simplify"
+      ],
+      [
+        "math/olympiad"
+      ],
+      [
+        "coding/LCB_generation"
+      ],
+      [
+        "reasoning/zebra_puzzle"
+      ],
+      [
+        "coding/coding_completion"
+      ],
+      [
+        "language/connections"
+      ],
+      [
+        "data_analysis/tablereformat"
+      ],
+      [
+        "math/AMPS_Hard"
+      ],
+      [
+        "language/typos"
+      ],
+      [
+        "data_analysis/cta"
+      ],
+      [
+        "instruction_following/story_generation"
+      ],
+      [
+        "math/math_comp"
+      ],
+      [
+        "data_analysis/tablejoin"
+      ],
+      [
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "language/plot_unscrambling": 0,
+      "instruction_following/summarize": 1,
+      "reasoning/spatial": 2,
+      "reasoning/web_of_lies_v2": 3,
+      "instruction_following/simplify": 4,
+      "math/olympiad": 5,
+      "coding/LCB_generation": 6,
+      "reasoning/zebra_puzzle": 7,
+      "coding/coding_completion": 8,
+      "language/connections": 9,
+      "data_analysis/tablereformat": 10,
+      "math/AMPS_Hard": 11,
+      "language/typos": 12,
+      "data_analysis/cta": 13,
+      "instruction_following/story_generation": 14,
+      "math/math_comp": 15,
+      "data_analysis/tablejoin": 16,
+      "instruction_following/paraphrase": 17
+    }
+  },
+  {
+    "partition": 2,
+    "dimension": 1,
+    "condition": "d01_p2",
+    "computed_condition": "d01_p0",
+    "ordered_tasks": [
+      "reasoning/web_of_lies_v2",
+      "language/typos",
+      "math/math_comp",
+      "instruction_following/story_generation",
+      "data_analysis/tablejoin",
+      "math/AMPS_Hard",
+      "data_analysis/tablereformat",
+      "coding/LCB_generation",
+      "math/olympiad",
+      "reasoning/zebra_puzzle",
+      "data_analysis/cta",
+      "instruction_following/simplify",
+      "coding/coding_completion",
+      "language/connections",
+      "language/plot_unscrambling",
+      "reasoning/spatial",
+      "instruction_following/summarize",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "reasoning/web_of_lies_v2",
+        "language/typos",
+        "math/math_comp",
+        "instruction_following/story_generation",
+        "data_analysis/tablejoin",
+        "math/AMPS_Hard",
+        "data_analysis/tablereformat",
+        "coding/LCB_generation",
+        "math/olympiad",
+        "reasoning/zebra_puzzle",
+        "data_analysis/cta",
+        "instruction_following/simplify",
+        "coding/coding_completion",
+        "language/connections",
+        "language/plot_unscrambling",
+        "reasoning/spatial",
+        "instruction_following/summarize",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "reasoning/web_of_lies_v2": 0,
+      "language/typos": 0,
+      "math/math_comp": 0,
+      "instruction_following/story_generation": 0,
+      "data_analysis/tablejoin": 0,
+      "math/AMPS_Hard": 0,
+      "data_analysis/tablereformat": 0,
+      "coding/LCB_generation": 0,
+      "math/olympiad": 0,
+      "reasoning/zebra_puzzle": 0,
+      "data_analysis/cta": 0,
+      "instruction_following/simplify": 0,
+      "coding/coding_completion": 0,
+      "language/connections": 0,
+      "language/plot_unscrambling": 0,
+      "reasoning/spatial": 0,
+      "instruction_following/summarize": 0,
+      "instruction_following/paraphrase": 0
+    }
+  },
+  {
+    "partition": 2,
+    "dimension": 2,
+    "condition": "d02_p2",
+    "computed_condition": "d02_p2",
+    "ordered_tasks": [
+      "reasoning/web_of_lies_v2",
+      "language/typos",
+      "math/math_comp",
+      "instruction_following/story_generation",
+      "data_analysis/tablejoin",
+      "math/AMPS_Hard",
+      "data_analysis/tablereformat",
+      "coding/LCB_generation",
+      "math/olympiad",
+      "reasoning/zebra_puzzle",
+      "data_analysis/cta",
+      "instruction_following/simplify",
+      "coding/coding_completion",
+      "language/connections",
+      "language/plot_unscrambling",
+      "reasoning/spatial",
+      "instruction_following/summarize",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "reasoning/web_of_lies_v2",
+        "language/typos",
+        "math/math_comp",
+        "instruction_following/story_generation",
+        "data_analysis/tablejoin",
+        "math/AMPS_Hard",
+        "data_analysis/tablereformat",
+        "coding/LCB_generation",
+        "math/olympiad"
+      ],
+      [
+        "reasoning/zebra_puzzle",
+        "data_analysis/cta",
+        "instruction_following/simplify",
+        "coding/coding_completion",
+        "language/connections",
+        "language/plot_unscrambling",
+        "reasoning/spatial",
+        "instruction_following/summarize",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "reasoning/web_of_lies_v2": 0,
+      "language/typos": 0,
+      "math/math_comp": 0,
+      "instruction_following/story_generation": 0,
+      "data_analysis/tablejoin": 0,
+      "math/AMPS_Hard": 0,
+      "data_analysis/tablereformat": 0,
+      "coding/LCB_generation": 0,
+      "math/olympiad": 0,
+      "reasoning/zebra_puzzle": 1,
+      "data_analysis/cta": 1,
+      "instruction_following/simplify": 1,
+      "coding/coding_completion": 1,
+      "language/connections": 1,
+      "language/plot_unscrambling": 1,
+      "reasoning/spatial": 1,
+      "instruction_following/summarize": 1,
+      "instruction_following/paraphrase": 1
+    }
+  },
+  {
+    "partition": 2,
+    "dimension": 3,
+    "condition": "d03_p2",
+    "computed_condition": "d03_p2",
+    "ordered_tasks": [
+      "reasoning/web_of_lies_v2",
+      "language/typos",
+      "math/math_comp",
+      "instruction_following/story_generation",
+      "data_analysis/tablejoin",
+      "math/AMPS_Hard",
+      "data_analysis/tablereformat",
+      "coding/LCB_generation",
+      "math/olympiad",
+      "reasoning/zebra_puzzle",
+      "data_analysis/cta",
+      "instruction_following/simplify",
+      "coding/coding_completion",
+      "language/connections",
+      "language/plot_unscrambling",
+      "reasoning/spatial",
+      "instruction_following/summarize",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "reasoning/web_of_lies_v2",
+        "language/typos",
+        "math/math_comp",
+        "instruction_following/story_generation",
+        "data_analysis/tablejoin",
+        "math/AMPS_Hard"
+      ],
+      [
+        "data_analysis/tablereformat",
+        "coding/LCB_generation",
+        "math/olympiad",
+        "reasoning/zebra_puzzle",
+        "data_analysis/cta",
+        "instruction_following/simplify"
+      ],
+      [
+        "coding/coding_completion",
+        "language/connections",
+        "language/plot_unscrambling",
+        "reasoning/spatial",
+        "instruction_following/summarize",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "reasoning/web_of_lies_v2": 0,
+      "language/typos": 0,
+      "math/math_comp": 0,
+      "instruction_following/story_generation": 0,
+      "data_analysis/tablejoin": 0,
+      "math/AMPS_Hard": 0,
+      "data_analysis/tablereformat": 1,
+      "coding/LCB_generation": 1,
+      "math/olympiad": 1,
+      "reasoning/zebra_puzzle": 1,
+      "data_analysis/cta": 1,
+      "instruction_following/simplify": 1,
+      "coding/coding_completion": 2,
+      "language/connections": 2,
+      "language/plot_unscrambling": 2,
+      "reasoning/spatial": 2,
+      "instruction_following/summarize": 2,
+      "instruction_following/paraphrase": 2
+    }
+  },
+  {
+    "partition": 2,
+    "dimension": 6,
+    "condition": "d06_p2",
+    "computed_condition": "d06_p2",
+    "ordered_tasks": [
+      "reasoning/web_of_lies_v2",
+      "language/typos",
+      "math/math_comp",
+      "instruction_following/story_generation",
+      "data_analysis/tablejoin",
+      "math/AMPS_Hard",
+      "data_analysis/tablereformat",
+      "coding/LCB_generation",
+      "math/olympiad",
+      "reasoning/zebra_puzzle",
+      "data_analysis/cta",
+      "instruction_following/simplify",
+      "coding/coding_completion",
+      "language/connections",
+      "language/plot_unscrambling",
+      "reasoning/spatial",
+      "instruction_following/summarize",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "reasoning/web_of_lies_v2",
+        "language/typos",
+        "math/math_comp"
+      ],
+      [
+        "instruction_following/story_generation",
+        "data_analysis/tablejoin",
+        "math/AMPS_Hard"
+      ],
+      [
+        "data_analysis/tablereformat",
+        "coding/LCB_generation",
+        "math/olympiad"
+      ],
+      [
+        "reasoning/zebra_puzzle",
+        "data_analysis/cta",
+        "instruction_following/simplify"
+      ],
+      [
+        "coding/coding_completion",
+        "language/connections",
+        "language/plot_unscrambling"
+      ],
+      [
+        "reasoning/spatial",
+        "instruction_following/summarize",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "reasoning/web_of_lies_v2": 0,
+      "language/typos": 0,
+      "math/math_comp": 0,
+      "instruction_following/story_generation": 1,
+      "data_analysis/tablejoin": 1,
+      "math/AMPS_Hard": 1,
+      "data_analysis/tablereformat": 2,
+      "coding/LCB_generation": 2,
+      "math/olympiad": 2,
+      "reasoning/zebra_puzzle": 3,
+      "data_analysis/cta": 3,
+      "instruction_following/simplify": 3,
+      "coding/coding_completion": 4,
+      "language/connections": 4,
+      "language/plot_unscrambling": 4,
+      "reasoning/spatial": 5,
+      "instruction_following/summarize": 5,
+      "instruction_following/paraphrase": 5
+    }
+  },
+  {
+    "partition": 2,
+    "dimension": 9,
+    "condition": "d09_p2",
+    "computed_condition": "d09_p2",
+    "ordered_tasks": [
+      "reasoning/web_of_lies_v2",
+      "language/typos",
+      "math/math_comp",
+      "instruction_following/story_generation",
+      "data_analysis/tablejoin",
+      "math/AMPS_Hard",
+      "data_analysis/tablereformat",
+      "coding/LCB_generation",
+      "math/olympiad",
+      "reasoning/zebra_puzzle",
+      "data_analysis/cta",
+      "instruction_following/simplify",
+      "coding/coding_completion",
+      "language/connections",
+      "language/plot_unscrambling",
+      "reasoning/spatial",
+      "instruction_following/summarize",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "reasoning/web_of_lies_v2",
+        "language/typos"
+      ],
+      [
+        "math/math_comp",
+        "instruction_following/story_generation"
+      ],
+      [
+        "data_analysis/tablejoin",
+        "math/AMPS_Hard"
+      ],
+      [
+        "data_analysis/tablereformat",
+        "coding/LCB_generation"
+      ],
+      [
+        "math/olympiad",
+        "reasoning/zebra_puzzle"
+      ],
+      [
+        "data_analysis/cta",
+        "instruction_following/simplify"
+      ],
+      [
+        "coding/coding_completion",
+        "language/connections"
+      ],
+      [
+        "language/plot_unscrambling",
+        "reasoning/spatial"
+      ],
+      [
+        "instruction_following/summarize",
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "reasoning/web_of_lies_v2": 0,
+      "language/typos": 0,
+      "math/math_comp": 1,
+      "instruction_following/story_generation": 1,
+      "data_analysis/tablejoin": 2,
+      "math/AMPS_Hard": 2,
+      "data_analysis/tablereformat": 3,
+      "coding/LCB_generation": 3,
+      "math/olympiad": 4,
+      "reasoning/zebra_puzzle": 4,
+      "data_analysis/cta": 5,
+      "instruction_following/simplify": 5,
+      "coding/coding_completion": 6,
+      "language/connections": 6,
+      "language/plot_unscrambling": 7,
+      "reasoning/spatial": 7,
+      "instruction_following/summarize": 8,
+      "instruction_following/paraphrase": 8
+    }
+  },
+  {
+    "partition": 2,
+    "dimension": 18,
+    "condition": "d18_p2",
+    "computed_condition": "d18_p0",
+    "ordered_tasks": [
+      "reasoning/web_of_lies_v2",
+      "language/typos",
+      "math/math_comp",
+      "instruction_following/story_generation",
+      "data_analysis/tablejoin",
+      "math/AMPS_Hard",
+      "data_analysis/tablereformat",
+      "coding/LCB_generation",
+      "math/olympiad",
+      "reasoning/zebra_puzzle",
+      "data_analysis/cta",
+      "instruction_following/simplify",
+      "coding/coding_completion",
+      "language/connections",
+      "language/plot_unscrambling",
+      "reasoning/spatial",
+      "instruction_following/summarize",
+      "instruction_following/paraphrase"
+    ],
+    "groups": [
+      [
+        "reasoning/web_of_lies_v2"
+      ],
+      [
+        "language/typos"
+      ],
+      [
+        "math/math_comp"
+      ],
+      [
+        "instruction_following/story_generation"
+      ],
+      [
+        "data_analysis/tablejoin"
+      ],
+      [
+        "math/AMPS_Hard"
+      ],
+      [
+        "data_analysis/tablereformat"
+      ],
+      [
+        "coding/LCB_generation"
+      ],
+      [
+        "math/olympiad"
+      ],
+      [
+        "reasoning/zebra_puzzle"
+      ],
+      [
+        "data_analysis/cta"
+      ],
+      [
+        "instruction_following/simplify"
+      ],
+      [
+        "coding/coding_completion"
+      ],
+      [
+        "language/connections"
+      ],
+      [
+        "language/plot_unscrambling"
+      ],
+      [
+        "reasoning/spatial"
+      ],
+      [
+        "instruction_following/summarize"
+      ],
+      [
+        "instruction_following/paraphrase"
+      ]
+    ],
+    "task_to_group": {
+      "reasoning/web_of_lies_v2": 0,
+      "language/typos": 1,
+      "math/math_comp": 2,
+      "instruction_following/story_generation": 3,
+      "data_analysis/tablejoin": 4,
+      "math/AMPS_Hard": 5,
+      "data_analysis/tablereformat": 6,
+      "coding/LCB_generation": 7,
+      "math/olympiad": 8,
+      "reasoning/zebra_puzzle": 9,
+      "data_analysis/cta": 10,
+      "instruction_following/simplify": 11,
+      "coding/coding_completion": 12,
+      "language/connections": 13,
+      "language/plot_unscrambling": 14,
+      "reasoning/spatial": 15,
+      "instruction_following/summarize": 16,
+      "instruction_following/paraphrase": 17
+    }
+  }
+]

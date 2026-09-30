@@ -1,0 +1,239 @@
+{
+  "source": "Official v0.1 outcome table; hashes are public release instructions, not archived full agent inputs.",
+  "source_url": "https://www.terminal-bench-science.ai/api/leaderboard?package=terminal-bench-science%2Fterminal-bench-science&name=v0-1-eval",
+  "source_metadata": {
+    "id": "9a545a14-78d0-44b4-9003-afe062522a47",
+    "package_id": "044b0b87-884f-4d2d-859e-47d88ab69288",
+    "package": "terminal-bench-science/terminal-bench-science",
+    "dataset_version_ids": [
+      "2b817f26-dc4f-4477-8032-2218dcc553b5"
+    ],
+    "name": "v0-1-eval",
+    "title": "Terminal-Bench-Science 0.1 Evaluation Results",
+    "description": "Evaluation results for Terminal-Bench-Science 0.1 with 3 trials per task.",
+    "metadata_schema": {
+      "type": "object",
+      "required": [
+        "agent_display",
+        "model_display",
+        "model_release_date",
+        "reasoning_effort",
+        "agent_org",
+        "model_org"
+      ],
+      "properties": {
+        "agent_org": {
+          "type": "object",
+          "required": [
+            "url",
+            "label"
+          ],
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "model_org": {
+          "type": "object",
+          "required": [
+            "url",
+            "label"
+          ],
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "agent_display": {
+          "type": "object",
+          "required": [
+            "url",
+            "label"
+          ],
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "model_display": {
+          "type": "object",
+          "required": [
+            "url",
+            "label"
+          ],
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        },
+        "reasoning_effort": {
+          "type": "string"
+        },
+        "model_release_date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
+    },
+    "metrics_schema": {
+      "type": "object",
+      "required": [
+        "accuracy",
+        "accuracy_stderr",
+        "passes",
+        "tasks",
+        "total_tokens",
+        "total_cost_usd",
+        "display_accuracy",
+        "display_total_tokens",
+        "display_cost"
+      ],
+      "properties": {
+        "tasks": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "passes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "accuracy": {
+          "type": "number",
+          "maximum": 100,
+          "minimum": 0
+        },
+        "display_cost": {
+          "type": "string"
+        },
+        "total_tokens": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "total_cost_usd": {
+          "type": "number",
+          "minimum": 0
+        },
+        "accuracy_stderr": {
+          "type": "number",
+          "maximum": 100,
+          "minimum": 0
+        },
+        "display_accuracy": {
+          "type": "string"
+        },
+        "display_total_tokens": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "columns": [
+      {
+        "id": "model_display",
+        "type": "link",
+        "header": "Model",
+        "accessor": "metadata.model_display"
+      },
+      {
+        "id": "agent_display",
+        "type": "link",
+        "header": "Agent",
+        "accessor": "metadata.agent_display"
+      },
+      {
+        "id": "accuracy",
+        "type": "number",
+        "align": "right",
+        "header": "Resolution Rate",
+        "accessor": "metrics.accuracy",
+        "display_type": "markdown",
+        "display_accessor": "metrics.display_accuracy"
+      },
+      {
+        "id": "model_release_date",
+        "type": "text",
+        "header": "Release Date",
+        "accessor": "metadata.model_release_date"
+      },
+      {
+        "id": "agent_org",
+        "type": "link",
+        "header": "Agent Org",
+        "accessor": "metadata.agent_org"
+      },
+      {
+        "id": "model_org",
+        "type": "link",
+        "header": "Model Org",
+        "accessor": "metadata.model_org"
+      },
+      {
+        "id": "total_tokens",
+        "type": "number",
+        "align": "right",
+        "header": "Tokens",
+        "accessor": "metrics.total_tokens",
+        "display_type": "text",
+        "display_accessor": "metrics.display_total_tokens"
+      },
+      {
+        "id": "total_cost_usd",
+        "type": "number",
+        "align": "right",
+        "header": "Cost",
+        "accessor": "metrics.total_cost_usd",
+        "display_type": "text",
+        "display_accessor": "metrics.display_cost"
+      }
+    ],
+    "rank_by": [
+      {
+        "nulls": "last",
+        "accessor": "metrics.accuracy",
+        "direction": "desc"
+      },
+      {
+        "nulls": "last",
+        "accessor": "metrics.total_cost_usd",
+        "direction": "asc"
+      }
+    ],
+    "visibility": "public",
+    "created_by": "5046effe-d7cc-4557-8aa0-76936826982b",
+    "created_at": "2026-08-23T21:45:52.95487+00:00",
+    "updated_at": "2026-09-23T16:29:34.906395+00:00"
+  },
+  "source_sha256": "86e6278ca64da88b69c1efd6059a33248bd300f27673098f60184286b470c4a7",
+  "scope": "Exploratory replay of 17 configurations on 70 tasks, with three runs averaged within each task. Full original agent inputs and environment bytes were not independently certified.",
+  "selection": "The snapshot was chosen for inclusion after results were available. Endpoint rules and budgets were locally locked before attack execution.",
+  "input_sha256": "bc3725b3b7c620371166efa13b1387757099db150a531259a562c63c825e8af5"
+}
