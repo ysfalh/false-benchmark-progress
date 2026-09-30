@@ -1,6 +1,6 @@
 # Fast but False Progress on Benchmarks with Richer Feedback
 
-Stress-test whether repeated public benchmark feedback preserves **best-score generalization** and **best-model selection**. This code repository is meant to accompany the [website](https://false-benchmark-progress.com/). In particular, it features a simple entry point to stress-test your own benchmark locally; see the "Stress-test another benchmark" section below.
+This code repository accompanies the [website](https://false-benchmark-progress.com/) to stress-test whether repeated public benchmark feedback preserves **best-score generalization** and **best-model selection**. In particular, it features a simple entry point to stress-test your own benchmark locally; see the "Stress-test another benchmark" section below.
 
 We find that following the public ranking after 128 leaderboard submissions lowers the selected model’s held-out score by **0.93–4.80 percentage points** across six benchmark snapshots. Model-selection loss compares that choice with the genuine public winner chosen before attack.
 
