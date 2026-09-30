@@ -1,5 +1,7 @@
 name: Checks
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -21,3 +23,34 @@ jobs:
       - run: python -m examples.custom_benchmark.run
       - run: python site/build.py
       - run: git diff --exit-code -- README.md site
+
+  deploy:
+    name: Publish website
+    needs: verify
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Stage website files
+        run: |
+          mkdir -p "$RUNNER_TEMP/website"
+          rsync -a --exclude='*.py' --exclude='__pycache__/' --exclude='index.template.html' site/ "$RUNNER_TEMP/website/"
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/website
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
